@@ -1,0 +1,97 @@
+[gd_scene format=3 uid="uid://n4ljwkbuh2jy"]
+
+[ext_resource type="Texture2D" uid="uid://ij6i52nm72ak" path="res://char sprites/Giant Goblin/PNG/Spritesheets/Front - Attacking.png" id="1_2ig5k"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_uixmg"]
+atlas = ExtResource("1_2ig5k")
+region = Rect2(0, 0, 840, 720)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_a0oyu"]
+atlas = ExtResource("1_2ig5k")
+region = Rect2(840, 0, 840, 720)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_j3rpm"]
+atlas = ExtResource("1_2ig5k")
+region = Rect2(1680, 0, 840, 720)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_82mj0"]
+atlas = ExtResource("1_2ig5k")
+region = Rect2(2520, 0, 840, 720)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0sfnh"]
+atlas = ExtResource("1_2ig5k")
+region = Rect2(3360, 0, 840, 720)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_w2kui"]
+atlas = ExtResource("1_2ig5k")
+region = Rect2(0, 720, 840, 720)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_oa20i"]
+atlas = ExtResource("1_2ig5k")
+region = Rect2(840, 720, 840, 720)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_yjhgd"]
+atlas = ExtResource("1_2ig5k")
+region = Rect2(1680, 720, 840, 720)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_yt636"]
+atlas = ExtResource("1_2ig5k")
+region = Rect2(2520, 720, 840, 720)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_n1rjp"]
+atlas = ExtResource("1_2ig5k")
+region = Rect2(3360, 720, 840, 720)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_7ouyb"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_uixmg")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_a0oyu")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_j3rpm")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_82mj0")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0sfnh")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_w2kui")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_oa20i")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_yjhgd")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_yt636")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_n1rjp")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 20.0
+}]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_kw6wd"]
+radius = 204.06126
+
+[node name="Idle_Goblin1" type="Node2D" unique_id=175809444]
+
+[node name="CharacterBody2D" type="CharacterBody2D" parent="." unique_id=1050401125]
+scale = Vector2(0.6, 0.6)
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="CharacterBody2D" unique_id=1365443150]
+sprite_frames = SubResource("SpriteFrames_7ouyb")
+autoplay = "default"
+frame_progress = 0.2859731
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterBody2D" unique_id=534959453]
+shape = SubResource("CircleShape2D_kw6wd")

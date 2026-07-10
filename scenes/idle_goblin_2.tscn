@@ -1,0 +1,138 @@
+[gd_scene format=3 uid="uid://bvfdp7mowny0l"]
+
+[ext_resource type="Texture2D" uid="uid://q6x5p0ktnwbs" path="res://char sprites/Giant Goblin/PNG/Spritesheets/Front - Idle Blinking.png" id="1_e2hti"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_14kao"]
+atlas = ExtResource("1_e2hti")
+region = Rect2(0, 0, 840, 720)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7lhw2"]
+atlas = ExtResource("1_e2hti")
+region = Rect2(840, 0, 840, 720)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6wi13"]
+atlas = ExtResource("1_e2hti")
+region = Rect2(1680, 0, 840, 720)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8agkn"]
+atlas = ExtResource("1_e2hti")
+region = Rect2(2520, 0, 840, 720)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_cdwoh"]
+atlas = ExtResource("1_e2hti")
+region = Rect2(0, 720, 840, 720)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_gcswb"]
+atlas = ExtResource("1_e2hti")
+region = Rect2(840, 720, 840, 720)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_pusue"]
+atlas = ExtResource("1_e2hti")
+region = Rect2(1680, 720, 840, 720)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_akvaq"]
+atlas = ExtResource("1_e2hti")
+region = Rect2(2520, 720, 840, 720)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_fxu48"]
+atlas = ExtResource("1_e2hti")
+region = Rect2(0, 1440, 840, 720)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4idcl"]
+atlas = ExtResource("1_e2hti")
+region = Rect2(840, 1440, 840, 720)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_dlybx"]
+atlas = ExtResource("1_e2hti")
+region = Rect2(1680, 1440, 840, 720)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_dnhoe"]
+atlas = ExtResource("1_e2hti")
+region = Rect2(2520, 1440, 840, 720)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_08ubq"]
+atlas = ExtResource("1_e2hti")
+region = Rect2(0, 2160, 840, 720)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_am3qk"]
+atlas = ExtResource("1_e2hti")
+region = Rect2(840, 2160, 840, 720)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_fkpsc"]
+atlas = ExtResource("1_e2hti")
+region = Rect2(1680, 2160, 840, 720)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_oxian"]
+atlas = ExtResource("1_e2hti")
+region = Rect2(2520, 2160, 840, 720)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_7ouyb"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_14kao")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_7lhw2")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6wi13")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8agkn")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_cdwoh")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_gcswb")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_pusue")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_akvaq")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_fxu48")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4idcl")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_dlybx")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_dnhoe")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_08ubq")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_am3qk")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_fkpsc")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_oxian")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 5.0
+}]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_kw6wd"]
+radius = 200.5318
+
+[node name="idle_goblin2" type="Node2D" unique_id=176424076]
+
+[node name="CharacterBody2D" type="CharacterBody2D" parent="." unique_id=1648798351]
+scale = Vector2(0.6, 0.6)
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="CharacterBody2D" unique_id=663847926]
+sprite_frames = SubResource("SpriteFrames_7ouyb")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterBody2D" unique_id=164877927]
+position = Vector2(-7, 2)
+shape = SubResource("CircleShape2D_kw6wd")

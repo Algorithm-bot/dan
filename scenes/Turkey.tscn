@@ -1,0 +1,28 @@
+[gd_scene format=3 uid="uid://dmkw4dws0i3wg"]
+
+[ext_resource type="Texture2D" uid="uid://pox8i2ofsgk0" path="res://misc/turkey.png" id="1_c2nq0"]
+[ext_resource type="Script" uid="uid://b23x6js767v4o" path="res://scripts/turkey.gd" id="1_ixf4u"]
+[ext_resource type="AudioStream" uid="uid://bvpirmmjwp3qd" path="res://music/player/bite.mp3" id="3_v3r3o"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_7ouyb"]
+radius = 63.0
+
+[node name="Turkey" type="Node2D" unique_id=780762173]
+
+[node name="Turkey" type="Area2D" parent="." unique_id=192813418]
+collision_mask = 2
+script = ExtResource("1_ixf4u")
+
+[node name="Sprite2D" type="Sprite2D" parent="Turkey" unique_id=446416531]
+position = Vector2(-1, -1)
+scale = Vector2(0.07268871, 0.08799236)
+texture = ExtResource("1_c2nq0")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Turkey" unique_id=152842282]
+position = Vector2(-1, -2)
+shape = SubResource("CircleShape2D_7ouyb")
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="Turkey" unique_id=1596690023]
+stream = ExtResource("3_v3r3o")
+
+[connection signal="body_entered" from="Turkey" to="Turkey" method="_on_body_entered"]

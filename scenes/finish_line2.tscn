@@ -1,0 +1,16 @@
+[gd_scene format=3 uid="uid://bayiletjs88ye"]
+
+[ext_resource type="Script" uid="uid://d2eub8uc8yjlr" path="res://scripts/finish_line.gd" id="1_5hrh5"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_7ouyb"]
+size = Vector2(36, 451)
+
+[node name="FinishLine" type="Area2D" unique_id=1774973070]
+collision_mask = 2
+script = ExtResource("1_5hrh5")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=2115220476]
+position = Vector2(8, -4.5)
+shape = SubResource("RectangleShape2D_7ouyb")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

@@ -1,0 +1,1542 @@
+[gd_scene format=4 uid="uid://hcmhmgpd6rqs"]
+
+[ext_resource type="Texture2D" uid="uid://csxsarygnxpci" path="res://Map assets/PNG/Platformer/Cartoon_Medieval_Armory_Level_Set_Platformer - Ground 02.png" id="1_ugtjf"]
+[ext_resource type="Script" uid="uid://dh2gvu3sbjtlx" path="res://scripts/scene_4.gd" id="1_ya08q"]
+[ext_resource type="PackedScene" uid="uid://bfg5hfldrtkwa" path="res://scenes/player.tscn" id="2_ya08q"]
+[ext_resource type="Texture2D" uid="uid://u2jsjs3xna3q" path="res://Map assets/PNG/Platformer/Cartoon_Medieval_Armory_Level_Set_Platformer - Ground 01.png" id="3_m3444"]
+[ext_resource type="Texture2D" uid="uid://l7ke4vvjha81" path="res://background/nature_3/orig.png" id="4_7p505"]
+[ext_resource type="Texture2D" uid="uid://cnqbakwym3qfs" path="res://Map assets/PNG/Platformer/dirt.png" id="4_aaiv8"]
+[ext_resource type="Texture2D" uid="uid://ciilwyui46gy5" path="res://Map assets/PNG/Platformer/Cartoon_Medieval_Armory_Level_Set_Platformer - Ground 11.png" id="4_u6g43"]
+[ext_resource type="Texture2D" uid="uid://btg16t6usgjrp" path="res://Map assets/PNG/Platformer/Cartoon_Medieval_Armory_Level_Set_Platformer - Ground 03.png" id="5_6w8oq"]
+[ext_resource type="Texture2D" uid="uid://l5rsu4qgq23y" path="res://Map assets/PNG/Platformer/Cartoon_Medieval_Armory_Level_Set_Platformer - Ground 04.png" id="6_u6g43"]
+[ext_resource type="Texture2D" uid="uid://d81b668ntb3d" path="res://Map assets/PNG/Platformer/Cartoon_Medieval_Armory_Level_Set_Platformer - Ground 05.png" id="7_r2c2w"]
+[ext_resource type="Texture2D" uid="uid://dt47rjv38bpof" path="res://Map assets/PNG/Platformer/Cartoon_Medieval_Armory_Level_Set_Platformer - Ground 07.png" id="8_vctyf"]
+[ext_resource type="Texture2D" uid="uid://cwlat7c4cpaoh" path="res://Map assets/PNG/Platformer/Cartoon_Medieval_Armory_Level_Set_Platformer - Ground 08.png" id="9_jli8b"]
+[ext_resource type="Texture2D" uid="uid://c0bxslhw3sw1y" path="res://Map assets/PNG/Platformer/Cartoon_Medieval_Armory_Level_Set_Platformer - Ground 09.png" id="10_khmcc"]
+[ext_resource type="Texture2D" uid="uid://oujp7x3soaf8" path="res://Map assets/PNG/Environment/Cartoon_Medieval_Armory_Level_Set_Environment - Tree 02.png" id="13_r6py6"]
+[ext_resource type="Texture2D" uid="uid://behfq8y76yk0x" path="res://Map assets/medieval/PNG/decor/decor_2.png" id="14_gmln7"]
+[ext_resource type="Texture2D" uid="uid://byxlv5pgg7a77" path="res://Map assets/PNG/Environment/Cartoon_Medieval_Armory_Level_Set_Environment - Rock 08.png" id="14_uvxyp"]
+[ext_resource type="Texture2D" uid="uid://bmfvxrenr5sc5" path="res://misc/FB00_nyknck/FB004.png" id="15_vrls7"]
+[ext_resource type="Texture2D" uid="uid://dkj357yj48wxf" path="res://Map assets/PNG/Environment/Cartoon_Medieval_Armory_Level_Set_Environment - Grass_01-24.png" id="16_57lim"]
+[ext_resource type="Texture2D" uid="uid://cufugb17xsf1t" path="res://Map assets/medieval/PNG/decor/decor_7.png" id="16_lq7vm"]
+[ext_resource type="Texture2D" uid="uid://7xr5ne0k1118" path="res://Map assets/PNG/Environment/Cartoon_Medieval_Armory_Level_Set_Environment - Stump.png" id="17_8sna8"]
+[ext_resource type="Texture2D" uid="uid://3fdvsj7in43c" path="res://Map assets/medieval/PNG/buildings/building_13/building_1.png" id="17_ah67d"]
+[ext_resource type="Texture2D" uid="uid://c2pem5vxcx3dn" path="res://Map assets/PNG/Environment/Cartoon_Medieval_Armory_Level_Set_Environment - Rock 02.png" id="18_lro5e"]
+[ext_resource type="Texture2D" uid="uid://c5koycy03wycw" path="res://Map assets/medieval/PNG/decor/tree_1.png" id="19_t8pe8"]
+[ext_resource type="Texture2D" uid="uid://dhtfvc2hh8mn8" path="res://Map assets/medieval/PNG/decor/tree_2.png" id="20_rj35a"]
+[ext_resource type="Texture2D" uid="uid://c0cni3404sh8g" path="res://Map assets/medieval/PNG/decor/greenery_2.png" id="26_1k485"]
+[ext_resource type="Texture2D" uid="uid://ct4m6wjbgauns" path="res://Map assets/medieval/PNG/buildings/building_1/building_1.png" id="27_fpfv4"]
+[ext_resource type="Texture2D" uid="uid://dffhn86ojufpq" path="res://Map assets/medieval/PNG/decor/greenery_4.png" id="28_tw5au"]
+[ext_resource type="Texture2D" uid="uid://cay7qlol4vebv" path="res://Map assets/medieval/PNG/decor/greenery_5.png" id="29_8jt5k"]
+[ext_resource type="Texture2D" uid="uid://bhqdw1oesd6tm" path="res://Map assets/medieval/PNG/decor/greenery_1.png" id="30_6qphk"]
+[ext_resource type="Texture2D" uid="uid://ci758xnqnmcyl" path="res://Map assets/medieval/PNG/decor/decor_15.png" id="31_84hio"]
+[ext_resource type="Texture2D" uid="uid://bwmttffnve25" path="res://Map assets/medieval/PNG/buildings/building_7/building_1.png" id="32_j5plt"]
+[ext_resource type="Texture2D" uid="uid://cxw23b5m8othk" path="res://Map assets/medieval/PNG/decor/decor_1.png" id="33_1l4mx"]
+[ext_resource type="Texture2D" uid="uid://quahox6df8do" path="res://Map assets/shaman/PNG/Details/chest.png" id="34_rds85"]
+[ext_resource type="Texture2D" uid="uid://ctd4dfdcybhn2" path="res://Map assets/PNG/Environment/Cartoon_Medieval_Armory_Level_Set_Environment - Quest Board.png" id="35_ossaq"]
+[ext_resource type="Texture2D" uid="uid://babf8jrsmesb4" path="res://Map assets/PNG/Building/Cartoon_Medieval_Armory_Level_Set_Building - Decor Weapon 03.png" id="36_iu87v"]
+[ext_resource type="Texture2D" uid="uid://dlpjunj3y3a27" path="res://Map assets/PNG/Building/Cartoon_Medieval_Armory_Level_Set_Building - Decor Weapon 04.png" id="37_eo81v"]
+[ext_resource type="Texture2D" uid="uid://dtsax8mq2h3c" path="res://Map assets/medieval/PNG/buildings/building_13/building_8.png" id="38_v38dr"]
+[ext_resource type="Texture2D" uid="uid://bf6536vahsx5i" path="res://Map assets/medieval/PNG/decor/decor_16.png" id="39_3b3c1"]
+[ext_resource type="Texture2D" uid="uid://be6kotl2mbuxj" path="res://Map assets/PNG/Environment/Cartoon_Medieval_Armory_Level_Set_Environment - Shield 01.png" id="40_nf6f7"]
+[ext_resource type="Texture2D" uid="uid://ble24djxi4v3s" path="res://Map assets/PNG/Environment/Cartoon_Medieval_Armory_Level_Set_Environment - Sack 02.png" id="41_qiirx"]
+[ext_resource type="Texture2D" uid="uid://dchayqfnhrb67" path="res://Map assets/medieval/PNG/buildings/building_9/building_1.png" id="42_arc0v"]
+[ext_resource type="Texture2D" uid="uid://b63l0s73knjf4" path="res://Map assets/medieval/PNG/decor/decor_4.png" id="43_a08bp"]
+[ext_resource type="Texture2D" uid="uid://c86cd58nafocw" path="res://Map assets/medieval/PNG/decor/decor_8.png" id="44_u0l7j"]
+[ext_resource type="Texture2D" uid="uid://ct08liq7rfko3" path="res://Map assets/medieval/PNG/decor/decor_14.png" id="45_uf5fe"]
+[ext_resource type="Texture2D" uid="uid://bpf5tfu8dvauu" path="res://Map assets/PNG/Environment/Cartoon_Medieval_Armory_Level_Set_Environment - Stand.png" id="46_uld2w"]
+[ext_resource type="Texture2D" uid="uid://ctracdo3vu7pc" path="res://Map assets/PNG/Environment/Cartoon_Medieval_Armory_Level_Set_Environment - Storage 02.png" id="47_ethnt"]
+[ext_resource type="Texture2D" uid="uid://c00iah3ydrhrx" path="res://Map assets/PNG/Environment/Cartoon_Medieval_Armory_Level_Set_Environment - Storage 01.png" id="48_6xne0"]
+[ext_resource type="Texture2D" uid="uid://bvq4sakmm0nuk" path="res://Map assets/PNG/Environment/Cartoon_Medieval_Armory_Level_Set_Environment - Sword 01.png" id="49_4ytmq"]
+[ext_resource type="Texture2D" uid="uid://blomhuv8f8ctd" path="res://Map assets/PNG/Environment/Cartoon_Medieval_Armory_Level_Set_Environment - Sign 02.png" id="50_hodcb"]
+[ext_resource type="Texture2D" uid="uid://djcesyd3rp3v3" path="res://Map assets/PNG/Environment/Cartoon_Medieval_Armory_Level_Set_Environment - Sack 01.png" id="51_pxf7m"]
+[ext_resource type="Texture2D" uid="uid://dokor3jfbsrc3" path="res://Map assets/medieval/PNG/buildings/building_15/building_1.png" id="52_1bauq"]
+[ext_resource type="Texture2D" uid="uid://b67xow3wblvvu" path="res://Map assets/medieval/PNG/buildings/building_12/building_1.png" id="53_7a3qq"]
+[ext_resource type="Texture2D" uid="uid://c5yc7x0i5palu" path="res://Map assets/medieval/PNG/buildings/building_17/building_1.png" id="54_p2fyp"]
+[ext_resource type="Texture2D" uid="uid://datnchkduug42" path="res://Map assets/medieval/PNG/decor/stones_1.png" id="55_53sir"]
+[ext_resource type="Texture2D" uid="uid://d0r7hi754liu0" path="res://Map assets/medieval/PNG/decor/decor_10.png" id="56_4kvjh"]
+[ext_resource type="Texture2D" uid="uid://u3dk7oqh1t30" path="res://misc/blood.png" id="57_iu87v"]
+[ext_resource type="PackedScene" uid="uid://8vy0odg1f1ci" path="res://scenes/goblin.tscn" id="57_oekip"]
+[ext_resource type="PackedScene" uid="uid://2k7mcvp4qn8" path="res://scenes/warrior.tscn" id="58_o0yqk"]
+[ext_resource type="PackedScene" uid="uid://dbrj6qc58ru58" path="res://scenes/enemy_bersek.tscn" id="59_o08a2"]
+[ext_resource type="PackedScene" uid="uid://in68cvkhpi07" path="res://scenes/chicken.tscn" id="60_v254t"]
+[ext_resource type="PackedScene" uid="uid://b5jxv7oiesrc3" path="res://scenes/shaman.tscn" id="61_tk37w"]
+[ext_resource type="PackedScene" uid="uid://dmkw4dws0i3wg" path="res://scenes/Turkey.tscn" id="62_rnkw8"]
+[ext_resource type="Texture2D" uid="uid://dxkwa5846kwmq" path="res://misc/CaveWoman.png" id="63_lf061"]
+[ext_resource type="Texture2D" uid="uid://bn45fpbbkn7dm" path="res://misc/deadCav.png" id="64_r5gki"]
+[ext_resource type="Texture2D" uid="uid://owbhrjapejco" path="res://misc/sprite-Photoroom.png" id="65_2vrgr"]
+[ext_resource type="Texture2D" uid="uid://l1irwkwlk82a" path="res://misc/smoke.png" id="66_lb78h"]
+[ext_resource type="Texture2D" uid="uid://bi2m8ykl1lg4j" path="res://Map assets/PNG/Building/Cartoon_Medieval_Armory_Level_Set_Building - Pillar 02.png" id="67_6pc82"]
+[ext_resource type="PackedScene" uid="uid://cqbmcegd3v75p" path="res://scenes/finish_line4.tscn" id="68_lq7vm"]
+[ext_resource type="Script" uid="uid://byxi2tg7urtvy" path="res://scripts/finish_line_4.gd" id="69_ah67d"]
+[ext_resource type="Texture2D" uid="uid://cmwuysu4t31oe" path="res://char sprites/Viking Leader/PNG/Vector Parts/Weapon.png" id="71_eo81v"]
+[ext_resource type="Texture2D" uid="uid://ecvj07t8wpe3" path="res://Map assets/PNG/Environment/Cartoon_Medieval_Armory_Level_Set_Environment - Stand Spear.png" id="72_v38dr"]
+[ext_resource type="Texture2D" uid="uid://cw4ke2gvo5kbi" path="res://Map assets/PNG/Environment/Cartoon_Medieval_Armory_Level_Set_Environment - Shield 03.png" id="73_3b3c1"]
+[ext_resource type="Texture2D" uid="uid://dwxp8ia0sf5vn" path="res://Map assets/PNG/Environment/Cartoon_Medieval_Armory_Level_Set_Environment - Grass_01-23.png" id="74_nf6f7"]
+[ext_resource type="Texture2D" uid="uid://bcqxh7627u46t" path="res://Map assets/PNG/Environment/Cartoon_Medieval_Armory_Level_Set_Environment - Rock 01.png" id="75_qiirx"]
+[ext_resource type="Texture2D" uid="uid://cx1up4honxg4n" path="res://Map assets/PNG/Environment/Cartoon_Medieval_Armory_Level_Set_Environment - Fence.png" id="76_arc0v"]
+[ext_resource type="Texture2D" uid="uid://cuxevcpex5263" path="res://Map assets/shaman/PNG/Details/marker_statue4.png" id="77_a08bp"]
+[ext_resource type="Texture2D" uid="uid://wwjg7xttxtdg" path="res://Map assets/PNG/Environment/Cartoon_Medieval_Armory_Level_Set_Environment - Wooden Barrel.png" id="78_u0l7j"]
+[ext_resource type="Texture2D" uid="uid://di11efxnxxid6" path="res://Map assets/PNG/Environment/Cartoon_Medieval_Armory_Level_Set_Environment - Wooden Crate.png" id="79_uf5fe"]
+[ext_resource type="Texture2D" uid="uid://72c1nudpdjk7" path="res://Map assets/PNG/Environment/Cartoon_Medieval_Armory_Level_Set_Environment - Sword 03.png" id="80_uld2w"]
+[ext_resource type="Script" uid="uid://bh2u6qjrcdqfq" path="res://scenes/canvas_layer.gd" id="81_eo81v"]
+[ext_resource type="Texture2D" uid="uid://06b4vc4lvq3b" path="res://Map assets/medieval/PNG/buildings/building_5/building_1.png" id="81_ethnt"]
+[ext_resource type="PackedScene" uid="uid://cyjy1hjhtj441" path="res://exampleScenes/scenes/windows/pause_menu.tscn" id="82_v38dr"]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_7p505"]
+texture = ExtResource("1_ugtjf")
+texture_region_size = Vector2i(128, 128)
+0:0/0 = 0
+0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-64, -64, -64, 64, 64, 64, 64, -64)
+1:0/0 = 0
+2:0/0 = 0
+3:0/0 = 0
+4:0/0 = 0
+5:0/0 = 0
+6:0/0 = 0
+7:0/0 = 0
+0:1/0 = 0
+1:1/0 = 0
+2:1/0 = 0
+3:1/0 = 0
+4:1/0 = 0
+5:1/0 = 0
+6:1/0 = 0
+7:1/0 = 0
+0:2/0 = 0
+1:2/0 = 0
+2:2/0 = 0
+3:2/0 = 0
+4:2/0 = 0
+5:2/0 = 0
+6:2/0 = 0
+7:2/0 = 0
+0:3/0 = 0
+1:3/0 = 0
+2:3/0 = 0
+3:3/0 = 0
+4:3/0 = 0
+5:3/0 = 0
+6:3/0 = 0
+7:3/0 = 0
+0:4/0 = 0
+1:4/0 = 0
+2:4/0 = 0
+3:4/0 = 0
+4:4/0 = 0
+5:4/0 = 0
+6:4/0 = 0
+7:4/0 = 0
+0:5/0 = 0
+1:5/0 = 0
+2:5/0 = 0
+3:5/0 = 0
+4:5/0 = 0
+5:5/0 = 0
+6:5/0 = 0
+7:5/0 = 0
+0:6/0 = 0
+1:6/0 = 0
+2:6/0 = 0
+3:6/0 = 0
+4:6/0 = 0
+5:6/0 = 0
+6:6/0 = 0
+7:6/0 = 0
+0:7/0 = 0
+1:7/0 = 0
+2:7/0 = 0
+3:7/0 = 0
+4:7/0 = 0
+5:7/0 = 0
+6:7/0 = 0
+7:7/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_kqga0"]
+texture = ExtResource("3_m3444")
+texture_region_size = Vector2i(128, 128)
+0:0/0 = 0
+0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-64, 64, 64, -64, 64, 64, -64, 64)
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_r2c2w"]
+texture = ExtResource("4_u6g43")
+texture_region_size = Vector2i(128, 128)
+0:0/0 = 0
+0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-64, -64, -64, 64, 64, 64, 64, -64)
+0:0/0/physics_layer_0/polygon_0/one_way = true
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_4a5g1"]
+texture = ExtResource("4_aaiv8")
+texture_region_size = Vector2i(128, 128)
+0:0/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_68fmk"]
+texture = ExtResource("5_6w8oq")
+texture_region_size = Vector2i(128, 128)
+0:0/0 = 0
+0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-64, -32, -64, -64, 64, 64, -64, 64)
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_k6tve"]
+texture = ExtResource("6_u6g43")
+texture_region_size = Vector2i(128, 128)
+0:0/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_ligmg"]
+texture = ExtResource("7_r2c2w")
+texture_region_size = Vector2i(128, 128)
+0:0/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_ks01w"]
+texture = ExtResource("8_vctyf")
+texture_region_size = Vector2i(128, 128)
+0:0/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_2fd8t"]
+texture = ExtResource("9_jli8b")
+texture_region_size = Vector2i(128, 128)
+0:0/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_c3itq"]
+texture = ExtResource("10_khmcc")
+texture_region_size = Vector2i(128, 128)
+0:0/0 = 0
+
+[sub_resource type="TileSet" id="TileSet_7ouyb"]
+tile_size = Vector2i(128, 128)
+physics_layer_0/collision_layer = 1
+sources/0 = SubResource("TileSetAtlasSource_7p505")
+sources/1 = SubResource("TileSetAtlasSource_kqga0")
+sources/2 = SubResource("TileSetAtlasSource_4a5g1")
+sources/4 = SubResource("TileSetAtlasSource_68fmk")
+sources/5 = SubResource("TileSetAtlasSource_k6tve")
+sources/6 = SubResource("TileSetAtlasSource_ligmg")
+sources/7 = SubResource("TileSetAtlasSource_ks01w")
+sources/8 = SubResource("TileSetAtlasSource_2fd8t")
+sources/9 = SubResource("TileSetAtlasSource_c3itq")
+sources/10 = SubResource("TileSetAtlasSource_r2c2w")
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_06gl4"]
+atlas = ExtResource("65_2vrgr")
+region = Rect2(0, 0, 307, 512)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_w4qnq"]
+atlas = ExtResource("65_2vrgr")
+region = Rect2(307, 0, 307, 512)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ufpok"]
+atlas = ExtResource("65_2vrgr")
+region = Rect2(614, 0, 307, 512)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6s26p"]
+atlas = ExtResource("65_2vrgr")
+region = Rect2(921, 0, 307, 512)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2ldpu"]
+atlas = ExtResource("65_2vrgr")
+region = Rect2(1228, 0, 307, 512)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_dexfv"]
+atlas = ExtResource("65_2vrgr")
+region = Rect2(0, 512, 307, 512)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_rhxqw"]
+atlas = ExtResource("65_2vrgr")
+region = Rect2(307, 512, 307, 512)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_f7e0x"]
+atlas = ExtResource("65_2vrgr")
+region = Rect2(614, 512, 307, 512)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ymt60"]
+atlas = ExtResource("65_2vrgr")
+region = Rect2(921, 512, 307, 512)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_in4ba"]
+atlas = ExtResource("65_2vrgr")
+region = Rect2(1228, 512, 307, 512)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_7ouyb"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_06gl4")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_w4qnq")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ufpok")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6s26p")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2ldpu")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_dexfv")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_rhxqw")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_f7e0x")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ymt60")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_in4ba")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 5.0
+}]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_pfaoo"]
+atlas = ExtResource("66_lb78h")
+region = Rect2(0, 0, 135, 226)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_fndhv"]
+atlas = ExtResource("66_lb78h")
+region = Rect2(135, 0, 135, 226)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wksx0"]
+atlas = ExtResource("66_lb78h")
+region = Rect2(270, 0, 135, 226)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1x63q"]
+atlas = ExtResource("66_lb78h")
+region = Rect2(405, 0, 135, 226)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xdwnt"]
+atlas = ExtResource("66_lb78h")
+region = Rect2(540, 0, 135, 226)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hfwyv"]
+atlas = ExtResource("66_lb78h")
+region = Rect2(0, 226, 135, 226)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_pp256"]
+atlas = ExtResource("66_lb78h")
+region = Rect2(135, 226, 135, 226)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_d85f4"]
+atlas = ExtResource("66_lb78h")
+region = Rect2(270, 226, 135, 226)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_rybln"]
+atlas = ExtResource("66_lb78h")
+region = Rect2(405, 226, 135, 226)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_s2tj6"]
+atlas = ExtResource("66_lb78h")
+region = Rect2(540, 226, 135, 226)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_kw6wd"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_pfaoo")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_fndhv")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_wksx0")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1x63q")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xdwnt")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_hfwyv")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_pp256")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_d85f4")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_rybln")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_s2tj6")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 3.0
+}]
+
+[node name="Node2D" type="Node2D" unique_id=241399352]
+script = ExtResource("1_ya08q")
+metadata/_edit_vertical_guides_ = [16251.0]
+
+[node name="TileMapLayer" type="TileMapLayer" parent="." unique_id=2083010557]
+tile_map_data = PackedByteArray("AADb/wIAAAAAAAAAAADb/wMAAgAAAAAAAADb/wQAAgAAAAAAAADb/wUAAgAAAAAAAADb/wYAAgAAAAAAAADc/wIAAAAAAAAAAADc/wMAAgAAAAAAAADc/wQAAgAAAAAAAADc/wUAAgAAAAAAAADd/wIAAAAAAAAAAADd/wMAAgAAAAAAAADd/wQAAgAAAAAAAADd/wUAAgAAAAAAAADd/wYAAgAAAAAAAADd/wcAAgAAAAAAAADe/wIAAAAAAAAAAADe/wMAAgAAAAAAAADe/wQAAgAAAAAAAADe/wUAAgAAAAAAAADe/wYAAgAAAAAAAADf/wIAAAAAAAAAAADf/wMAAgAAAAAAAADf/wQAAgAAAAAAAADf/wUAAgAAAAAAAADf/wYAAgAAAAAAAADg/wIAAAAAAAAAAADg/wMAAgAAAAAAAADg/wQAAgAAAAAAAADg/wUAAgAAAAAAAADg/wYAAgAAAAAAAADh/wIAAAAAAAAAAADh/wMAAgAAAAAAAADh/wQAAgAAAAAAAADh/wUAAgAAAAAAAADh/wYAAgAAAAAAAADi/wIAAAAAAAAAAADi/wMAAgAAAAAAAADi/wQAAgAAAAAAAADi/wUAAgAAAAAAAADi/wYAAgAAAAAAAADj/wIAAAAAAAAAAADj/wMAAgAAAAAAAADj/wQAAgAAAAAAAADj/wUAAgAAAAAAAADj/wYAAgAAAAAAAADk/wIAAAAAAAAAAADk/wMAAgAAAAAAAADk/wQAAgAAAAAAAADk/wUAAgAAAAAAAADk/wYAAgAAAAAAAADl/wIAAAAAAAAAAADl/wMAAgAAAAAAAADl/wQAAgAAAAAAAADl/wUAAgAAAAAAAADl/wYAAgAAAAAAAADm/wIAAAAAAAAAAADm/wMAAgAAAAAAAADm/wQAAgAAAAAAAADm/wUAAgAAAAAAAADm/wYAAgAAAAAAAADn/wIAAAAAAAAAAADn/wMAAgAAAAAAAADn/wQAAgAAAAAAAADn/wUAAgAAAAAAAADn/wYAAgAAAAAAAADo/wIAAAAAAAAAAADo/wMAAgAAAAAAAADo/wQAAgAAAAAAAADo/wUAAgAAAAAAAADo/wYAAgAAAAAAAADp/wIAAAAAAAAAAADp/wMAAgAAAAAAAADp/wQAAgAAAAAAAADp/wUAAgAAAAAAAADp/wYAAgAAAAAAAADq/wIAAAAAAAAAAADq/wMAAgAAAAAAAADq/wQAAgAAAAAAAADq/wUAAgAAAAAAAADq/wYAAgAAAAAAAADr/wIAAAAAAAAAAADr/wMAAgAAAAAAAADr/wQAAgAAAAAAAADr/wUAAgAAAAAAAADr/wYAAgAAAAAAAADs/wIAAAAAAAAAAADs/wMAAgAAAAAAAADs/wQAAgAAAAAAAADs/wUAAgAAAAAAAADs/wYAAgAAAAAAAADt/wIAAAAAAAAAAADt/wMAAgAAAAAAAADt/wQAAgAAAAAAAADt/wUAAgAAAAAAAADt/wYAAgAAAAAAAADu/wIAAAAAAAAAAADu/wMAAgAAAAAAAADu/wQAAgAAAAAAAADu/wUAAgAAAAAAAADu/wYAAgAAAAAAAADv/wIAAAAAAAAAAADv/wMAAgAAAAAAAADv/wQAAgAAAAAAAADv/wUAAgAAAAAAAADv/wYAAgAAAAAAAADw/wIAAAAAAAAAAADw/wMAAgAAAAAAAADw/wQAAgAAAAAAAADw/wUAAgAAAAAAAADw/wYAAgAAAAAAAADx/wIAAAAAAAAAAADx/wMAAgAAAAAAAADx/wQAAgAAAAAAAADx/wUAAgAAAAAAAADx/wYAAgAAAAAAAADy/wIAAAAAAAAAAADy/wMAAgAAAAAAAADy/wQAAgAAAAAAAADy/wUAAgAAAAAAAADy/wYAAgAAAAAAAADz/wIAAAAAAAAAAADz/wMAAgAAAAAAAADz/wQAAgAAAAAAAADz/wUAAgAAAAAAAADz/wYAAgAAAAAAAADz/wcAAgAAAAAAAAD0/wIAAAAAAAAAAAD0/wMAAgAAAAAAAAD0/wQAAgAAAAAAAAD0/wUAAgAAAAAAAAD0/wYAAgAAAAAAAAD0/wcAAgAAAAAAAAD1/wIAAAAAAAAAAAD1/wMAAgAAAAAAAAD1/wQAAgAAAAAAAAD1/wUAAgAAAAAAAAD1/wYAAgAAAAAAAAD1/wcAAgAAAAAAAAD2/wIAAAAAAAAAAAD2/wMAAgAAAAAAAAD2/wQAAgAAAAAAAAD2/wUAAgAAAAAAAAD2/wYAAgAAAAAAAAD3/wIAAAAAAAAAAAD3/wMAAgAAAAAAAAD3/wQAAgAAAAAAAAD3/wUAAgAAAAAAAAD3/wYAAgAAAAAAAAD4/wIAAAAAAAAAAAD4/wMAAgAAAAAAAAD4/wQAAgAAAAAAAAD4/wUAAgAAAAAAAAD4/wYAAgAAAAAAAAD5/wIAAAAAAAAAAAD5/wMAAgAAAAAAAAD5/wQAAgAAAAAAAAD5/wUAAgAAAAAAAAD5/wYAAgAAAAAAAAD6/wIAAAAAAAAAAAD6/wMAAgAAAAAAAAD6/wQAAgAAAAAAAAD6/wUAAgAAAAAAAAD6/wYAAgAAAAAAAAD7/wIAAAAAAAAAAAD7/wMAAgAAAAAAAAD7/wQAAgAAAAAAAAD7/wUAAgAAAAAAAAD7/wYAAgAAAAAAAAD8/wIAAAAAAAAAAAD8/wMAAgAAAAAAAAD8/wQAAgAAAAAAAAD8/wUAAgAAAAAAAAD8/wYAAgAAAAAAAAD9/wIAAAAAAAAAAAD9/wMAAgAAAAAAAAD9/wQAAgAAAAAAAAD9/wUAAgAAAAAAAAD9/wYAAgAAAAAAAAD+/wIAAAAAAAAAAAD+/wMAAgAAAAAAAAD+/wQAAgAAAAAAAAD+/wUAAgAAAAAAAAD+/wYAAgAAAAAAAAD//wIAAAAAAAAAAAD//wMAAgAAAAAAAAD//wQAAgAAAAAAAAD//wUAAgAAAAAAAAD//wYAAgAAAAAAAAAAAAIAAAAAAAAAAAAAAAMAAgAAAAAAAAAAAAQAAgAAAAAAAAAAAAUAAgAAAAAAAAAAAAYAAgAAAAAAAAABAAIAAAAAAAAAAAABAAMAAgAAAAAAAAABAAQAAgAAAAAAAAABAAUAAgAAAAAAAAABAAYAAgAAAAAAAAACAAIAAAAAAAAAAAACAAMAAgAAAAAAAAACAAQAAgAAAAAAAAACAAUAAgAAAAAAAAACAAYAAgAAAAAAAAADAAIAAAAAAAAAAAADAAMAAgAAAAAAAAADAAQAAgAAAAAAAAADAAUAAgAAAAAAAAADAAYAAgAAAAAAAAAEAAIAAAAAAAAAAAAEAAMAAgAAAAAAAAAEAAQAAgAAAAAAAAAEAAUAAgAAAAAAAAAEAAYAAgAAAAAAAAAEAAcAAgAAAAAAAAAFAAIAAAAAAAAAAAAFAAMAAgAAAAAAAAAFAAQAAgAAAAAAAAAFAAUAAgAAAAAAAAAFAAYAAgAAAAAAAAAFAAcAAgAAAAAAAAAGAAIAAAAAAAAAAAAGAAMAAgAAAAAAAAAGAAQAAgAAAAAAAAAGAAUAAgAAAAAAAAAGAAYAAgAAAAAAAAAGAAcAAgAAAAAAAAAHAAIAAAAAAAAAAAAHAAMAAgAAAAAAAAAHAAQAAgAAAAAAAAAHAAUAAgAAAAAAAAAHAAYAAgAAAAAAAAAIAAIAAAAAAAAAAAAIAAMAAgAAAAAAAAAIAAQAAgAAAAAAAAAIAAUAAgAAAAAAAAAIAAYAAgAAAAAAAAAJAAIAAAAAAAAAAAAJAAMAAgAAAAAAAAAJAAQAAgAAAAAAAAAJAAUAAgAAAAAAAAAJAAYAAgAAAAAAAAAKAAIAAAAAAAAAAAAKAAMAAgAAAAAAAAAKAAQAAgAAAAAAAAAKAAUAAgAAAAAAAAAKAAYAAgAAAAAAAAAKAAcAAgAAAAAAAAALAAIAAAAAAAAAAAALAAMAAgAAAAAAAAALAAQAAgAAAAAAAAALAAUAAgAAAAAAAAALAAYAAgAAAAAAAAALAAcAAgAAAAAAAAAMAAIAAAAAAAAAAAAMAAMAAgAAAAAAAAAMAAQAAgAAAAAAAAAMAAUAAgAAAAAAAAAMAAYAAgAAAAAAAAAMAAcAAgAAAAAAAAANAAIAAAAAAAAAAAANAAMAAgAAAAAAAAANAAQAAgAAAAAAAAANAAUAAgAAAAAAAAANAAYAAgAAAAAAAAANAAcAAgAAAAAAAAAOAAIAAAAAAAAAAAAOAAMAAgAAAAAAAAAOAAQAAgAAAAAAAAAOAAUAAgAAAAAAAAAOAAYAAgAAAAAAAAAOAAcAAgAAAAAAAAAPAAIAAAAAAAAAAAAPAAMAAgAAAAAAAAAPAAQAAgAAAAAAAAAPAAUAAgAAAAAAAAAPAAYAAgAAAAAAAAAPAAcAAgAAAAAAAAAQAAIAAAAAAAAAAAAQAAMAAgAAAAAAAAAQAAQAAgAAAAAAAAAQAAUAAgAAAAAAAAAQAAYAAgAAAAAAAAAQAAcAAgAAAAAAAAARAAIAAAAAAAAAAAARAAMAAgAAAAAAAAARAAQAAgAAAAAAAAARAAUAAgAAAAAAAAARAAYAAgAAAAAAAAARAAcAAgAAAAAAAAASAAIAAAAAAAAAAAASAAMAAgAAAAAAAAASAAQAAgAAAAAAAAASAAUAAgAAAAAAAAASAAYAAgAAAAAAAAASAAcAAgAAAAAAAAATAAIAAAAAAAAAAAATAAMAAgAAAAAAAAATAAQAAgAAAAAAAAATAAUAAgAAAAAAAAATAAYAAgAAAAAAAAATAAcAAgAAAAAAAAAUAAIAAAAAAAAAAAAUAAMAAgAAAAAAAAAUAAQAAgAAAAAAAAAUAAUAAgAAAAAAAAAUAAYAAgAAAAAAAAAUAAcAAgAAAAAAAAAVAAIAAAAAAAAAAAAVAAMAAgAAAAAAAAAVAAQAAgAAAAAAAAAVAAUAAgAAAAAAAAAVAAYAAgAAAAAAAAAVAAcAAgAAAAAAAAAWAAIAAAAAAAAAAAAWAAMAAgAAAAAAAAAWAAQAAgAAAAAAAAAWAAUAAgAAAAAAAAAWAAYAAgAAAAAAAAAXAAIAAAAAAAAAAAAXAAMAAgAAAAAAAAAXAAQAAgAAAAAAAAAXAAUAAgAAAAAAAAAXAAYAAgAAAAAAAAAYAAIAAAAAAAAAAAAYAAMAAgAAAAAAAAAYAAQAAgAAAAAAAAAYAAUAAgAAAAAAAAAYAAYAAgAAAAAAAAAZAAIAAAAAAAAAAAAZAAMAAgAAAAAAAAAZAAQAAgAAAAAAAAAZAAUAAgAAAAAAAAAZAAYAAgAAAAAAAAAaAAIAAAAAAAAAAAAaAAMAAgAAAAAAAAAaAAQAAgAAAAAAAAAaAAUAAgAAAAAAAAAaAAYAAgAAAAAAAAAbAAIAAAAAAAAAAAAbAAMAAgAAAAAAAAAbAAQAAgAAAAAAAAAbAAUAAgAAAAAAAAAbAAYAAgAAAAAAAAAcAAIAAAAAAAAAAAAcAAMAAgAAAAAAAAAcAAQAAgAAAAAAAAAcAAUAAgAAAAAAAAAcAAYAAgAAAAAAAAAdAAIAAAAAAAAAAAAdAAMAAgAAAAAAAAAdAAQAAgAAAAAAAAAdAAUAAgAAAAAAAAAdAAYAAgAAAAAAAAAeAAIAAAAAAAAAAAAeAAMAAgAAAAAAAAAeAAQAAgAAAAAAAAAeAAUAAgAAAAAAAAAeAAYAAgAAAAAAAAAfAAIAAAAAAAAAAAAfAAMAAgAAAAAAAAAfAAQAAgAAAAAAAAAfAAUAAgAAAAAAAAAfAAYAAgAAAAAAAAAgAAIAAAAAAAAAAAAgAAMAAgAAAAAAAAAgAAQAAgAAAAAAAAAgAAUAAgAAAAAAAAAgAAYAAgAAAAAAAAAhAAIAAAAAAAAAAAAhAAMAAgAAAAAAAAAhAAQAAgAAAAAAAAAhAAUAAgAAAAAAAAAhAAYAAgAAAAAAAAAiAAIAAAAAAAAAAAAiAAMAAgAAAAAA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AABAAAQAAgAAAAAAAAA/AAQAAgAAAAAAAAA+AAQAAgAAAAAAAABLAAIAAgAAAAAAAABMAAIAAgAAAAAAAABNAAIAAgAAAAAAAABOAAIAAgAAAAAAAABPAAIAAgAAAAAAAABQAAIAAgAAAAAAAABRAAIAAgAAAAAAAABSAAIAAgAAAAAAAABTAAIAAgAAAAAAAABUAAIAAgAAAAAAAABVAAIAAgAAAAAAAABWAAIAAgAAAAAAAABXAAIAAgAAAAAAAABYAAIAAgAAAAAAAABZAAIAAgAAAAAAAABaAAIAAgAAAAAAAABbAAIAAgAAAAAAAABcAAIAAgAAAAAAAABdAAIAAgAAAAAAAABeAAIAAgAAAAAAAABfAAIAAgAAAAAAAABgAAIAAgAAAAAAAABhAAIAAgAAAAAAAABhAAMAAgAAAAAAAABgAAMAAgAAAAAAAABfAAMAAgAAAAAAAABeAAMAAgAAAAAAAABdAAMAAgAAAAAAAABcAAMAAgAAAAAAAABbAAMAAgAAAAAAAABaAAMAAgAAAAAAAABZAAMAAgAAAAAAAABYAAMAAgAAAAAAAABXAAMAAgAAAAAAAABWAAMAAgAAAAAAAABVAAMAAgAAAAAAAABUAAMAAgAAAAAAAABTAAMAAgAAAAAAAABSAAMAAgAAAAAAAABRAAMAAgAAAAAAAABQAAMAAgAAAAAAAABPAAMAAgAAAAAAAABOAAMAAgAAAAAAAABNAAMAAgAAAAAAAABMAAMAAgAAAAAAAABLAAMAAgAAAAAAAABLAAQAAgAAAAAAAABMAAQAAgAAAAAAAABNAAQAAgAAAAAAAABOAAQAAgAAAAAAAABPAAQAAgAAAAAAAABQAAQAAgAAAAAAAABRAAQAAgAAAAAAAABSAAQAAgAAAAAAAABTAAQAAgAAAAAAAABUAAQAAgAAAAAAAABVAAQAAgAAAAAAAABWAAQAAgAAAAAAAABXAAQAAgAAAAAAAABYAAQAAgAAAAAAAABZAAQAAgAAAAAAAABaAAQAAgAAAAAAAABbAAQAAgAAAAAAAABcAAQAAgAAAAAAAABdAAQAAgAAAAAAAABeAAQAAgAAAAAAAABfAAQAAgAAAAAAAABgAAQAAgAAAAAAAABhAAQAAgAAAAAAAAByAAIAAgAAAAAAAABzAAIAAgAAAAAAAAB0AAIAAgAAAAAA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AAB9AAQAAgAAAAAAAAB+AAQAAgAAAAAAAAB+AAMAAgAAAAAAAAB9AAMAAgAAAAAAAAB8AAMAAgAAAAAAAAB8AAIAAgAAAAAAAAB9AAIAAgAAAAAAAAB+AAIAAgAAAAAAAAB8AAEAAAAAAAAAAAB9AAEAAAAAAAAAAAB+AAEAAAAAAAAAAADNAAIAAgAAAAAAAADOAAIAAgAAAAAAAADPAAIAAgAAAAAAAADQAAIAAgAAAAAAAADRAAIAAgAAAAAAAADSAAIAAgAAAAAAAADTAAIAAgAAAAAAAADUAAIAAgAAAAAAAADUAAMAAgAAAAAAAADTAAMAAgAAAAAAAADSAAMAAgAAAAAAAADRAAMAAgAAAAAAAADQAAMAAgAAAAAAAADPAAMAAgAAAAAAAADOAAMAAgAAAAAAAADNAAMAAgAAAAAAAADNAAQAAgAAAAAAAADOAAQAAgAAAAAAAADPAAQAAgAAAAAAAADQAAQAAgAAAAAAAADRAAQAAgAAAAAAAADSAAQAAgAAAAAAAADTAAQAAgAAAAAAAADUAAQAAgAAAAAAAADNAAEAAAAAAAAAAADOAAEAAAAAAAAAAADPAAEAAAAAAAAAAADQAAEAAAAAAAAAAADRAAEAAAAAAAAAAADSAAEAAAAAAAAAAADTAAEAAAAAAAAAAADUAAEAAAAAAAAAAACvAP//CgAAAAAAAACwAP//CgAAAAAAAACwAP3/CgAAAAAAAACxAP3/CgAAAAAAAACyAPv/CgAAAAAAAACzAPv/CgAAAAAAAAC1APn/CgAAAAAAAAC2APn/CgAAAAAAAAC4APf/CgAAAAAAAAC5APf/CgAAAAAAAAC7APn/CgAAAAAAAAC8APn/CgAAAAAAAAC9APv/CgAAAAAAAAC+APv/CgAAAAAAAAC/AP3/CgAAAAAAAADAAP3/CgAAAAAAAADBAP//CgAAAAAAAADCAP//CgAAAAAAAABiAAEAAAAAAAAAAABiAAIAAgAAAAAAAABiAAMAAgAAAAAAAABiAAQAAgAAAAAAAABrAPz/AAAAAAAAAABjAAEAAAAAAAAAAABjAAIAAgAAAAAAAABjAAMAAgAAAAAAAABjAAQAAgAAAAAAAABIAAEAAAAAAAAAAAA=")
+tile_set = SubResource("TileSet_7ouyb")
+
+[node name="CPUParticles2D" type="CPUParticles2D" parent="." unique_id=1243116739]
+position = Vector2(253, -2220)
+amount = 25000
+lifetime = 3.22
+emission_shape = 3
+emission_rect_extents = Vector2(110000, 1)
+direction = Vector2(0, 1)
+initial_velocity_min = 50.0
+initial_velocity_max = 50.0
+scale_amount_min = 2.0
+scale_amount_max = 12.0
+color = Color(0.43529412, 0.56078434, 0.6862745, 1)
+
+[node name="Player" parent="." unique_id=1250068965 instance=ExtResource("2_ya08q")]
+position = Vector2(-2718, 93)
+
+[node name="Background" type="Node2D" parent="." unique_id=73512091]
+scale = Vector2(1.2, 1.2)
+
+[node name="Orig" type="Sprite2D" parent="Background" unique_id=1162437864]
+z_index = -50
+position = Vector2(-2952, -672)
+scale = Vector2(6, 6)
+texture = ExtResource("4_7p505")
+metadata/_edit_lock_ = true
+
+[node name="Orig2" type="Sprite2D" parent="Background" unique_id=715214527]
+z_index = -50
+position = Vector2(502, -674)
+scale = Vector2(6, 6)
+texture = ExtResource("4_7p505")
+metadata/_edit_lock_ = true
+
+[node name="Orig3" type="Sprite2D" parent="Background" unique_id=1052176370]
+z_index = -50
+position = Vector2(3938, -673)
+scale = Vector2(6, 6)
+texture = ExtResource("4_7p505")
+
+[node name="Orig5" type="Sprite2D" parent="Background" unique_id=1882647947]
+z_index = -50
+position = Vector2(10831, -678)
+scale = Vector2(6, 6)
+texture = ExtResource("4_7p505")
+metadata/_edit_lock_ = true
+
+[node name="Orig6" type="Sprite2D" parent="Background" unique_id=518772114]
+z_index = -50
+position = Vector2(14271, -673)
+scale = Vector2(6, 6)
+texture = ExtResource("4_7p505")
+metadata/_edit_lock_ = true
+
+[node name="Orig7" type="Sprite2D" parent="Background" unique_id=879372566]
+z_index = -50
+position = Vector2(17683, -673)
+scale = Vector2(6, 6)
+texture = ExtResource("4_7p505")
+metadata/_edit_lock_ = true
+
+[node name="Orig8" type="Sprite2D" parent="Background" unique_id=1803722166]
+z_index = -50
+position = Vector2(21115, -673)
+scale = Vector2(6, 6)
+texture = ExtResource("4_7p505")
+metadata/_edit_lock_ = true
+
+[node name="Orig9" type="Sprite2D" parent="Background" unique_id=1198105823]
+z_index = -50
+position = Vector2(24549, -673)
+scale = Vector2(6, 6)
+texture = ExtResource("4_7p505")
+
+[node name="Props" type="Node" parent="." unique_id=1409856674]
+
+[node name="Decor2" type="Sprite2D" parent="Props" unique_id=249536859]
+z_index = 4
+position = Vector2(23637.002, -172)
+scale = Vector2(3.877046, 3.024648)
+texture = ExtResource("14_gmln7")
+metadata/_edit_lock_ = true
+
+[node name="Fb004" type="Sprite2D" parent="Props" unique_id=582435186]
+position = Vector2(23398, 78)
+rotation = -1.5713434
+scale = Vector2(5, 5)
+texture = ExtResource("15_vrls7")
+metadata/_edit_lock_ = true
+
+[node name="Fb012" type="Sprite2D" parent="Props" unique_id=716789672]
+z_index = -1
+position = Vector2(23411, 139.99998)
+rotation = -1.5713434
+scale = Vector2(5, 5)
+texture = ExtResource("15_vrls7")
+
+[node name="Fb023" type="Sprite2D" parent="Props" unique_id=33768977]
+z_index = -1
+position = Vector2(23383, 133.99953)
+rotation = -1.2626163
+scale = Vector2(5, 5)
+texture = ExtResource("15_vrls7")
+
+[node name="Fb013" type="Sprite2D" parent="Props" unique_id=1490224092]
+z_index = -1
+position = Vector2(23466, 149)
+rotation = -1.5713434
+scale = Vector2(5, 5)
+texture = ExtResource("15_vrls7")
+
+[node name="Fb014" type="Sprite2D" parent="Props" unique_id=573188145]
+z_index = -1
+position = Vector2(23532.998, 147.99998)
+rotation = -1.5713434
+scale = Vector2(5, 5)
+texture = ExtResource("15_vrls7")
+
+[node name="Fb015" type="Sprite2D" parent="Props" unique_id=2055520193]
+z_index = -1
+position = Vector2(23607, 151.99998)
+rotation = -1.5713434
+scale = Vector2(5, 5)
+texture = ExtResource("15_vrls7")
+
+[node name="Fb016" type="Sprite2D" parent="Props" unique_id=1309716876]
+z_index = -1
+position = Vector2(23679, 156)
+rotation = -1.5713434
+scale = Vector2(5, 5)
+texture = ExtResource("15_vrls7")
+
+[node name="Fb017" type="Sprite2D" parent="Props" unique_id=949968253]
+z_index = -1
+position = Vector2(23679, 156)
+rotation = -1.5713434
+scale = Vector2(5, 5)
+texture = ExtResource("15_vrls7")
+
+[node name="Fb018" type="Sprite2D" parent="Props" unique_id=932152115]
+z_index = -1
+position = Vector2(23743.998, 158.99998)
+rotation = -1.5713434
+scale = Vector2(5, 5)
+texture = ExtResource("15_vrls7")
+
+[node name="Fb019" type="Sprite2D" parent="Props" unique_id=1075486083]
+z_index = -1
+position = Vector2(23743.998, 158.99998)
+rotation = -1.5713434
+scale = Vector2(5, 5)
+texture = ExtResource("15_vrls7")
+
+[node name="Fb020" type="Sprite2D" parent="Props" unique_id=738265651]
+z_index = -1
+position = Vector2(23818.998, 159.00002)
+rotation = -1.5713434
+scale = Vector2(5, 5)
+texture = ExtResource("15_vrls7")
+
+[node name="Fb021" type="Sprite2D" parent="Props" unique_id=2036032665]
+z_index = -1
+position = Vector2(23893.998, 158)
+rotation = -1.5713434
+scale = Vector2(5, 5)
+texture = ExtResource("15_vrls7")
+
+[node name="Fb022" type="Sprite2D" parent="Props" unique_id=590353123]
+z_index = -1
+position = Vector2(23893.998, 158)
+rotation = -1.0301684
+scale = Vector2(5.0000005, 5.0000005)
+texture = ExtResource("15_vrls7")
+
+[node name="Fb005" type="Sprite2D" parent="Props" unique_id=1472614860]
+position = Vector2(23477, 73.999985)
+rotation = -1.5713434
+scale = Vector2(5, 5)
+texture = ExtResource("15_vrls7")
+
+[node name="Fb006" type="Sprite2D" parent="Props" unique_id=1889672164]
+position = Vector2(23551.998, 77)
+rotation = -1.5713434
+scale = Vector2(5, 5)
+texture = ExtResource("15_vrls7")
+
+[node name="Fb007" type="Sprite2D" parent="Props" unique_id=1929383784]
+position = Vector2(23626, 73)
+rotation = -1.5713434
+scale = Vector2(5, 5)
+texture = ExtResource("15_vrls7")
+
+[node name="Fb008" type="Sprite2D" parent="Props" unique_id=2029555272]
+position = Vector2(23703, 79.00001)
+rotation = -1.5713434
+scale = Vector2(5, 5)
+texture = ExtResource("15_vrls7")
+
+[node name="Fb009" type="Sprite2D" parent="Props" unique_id=1039402019]
+position = Vector2(23779.998, 89)
+rotation = -1.5713434
+scale = Vector2(5, 5)
+texture = ExtResource("15_vrls7")
+
+[node name="Fb010" type="Sprite2D" parent="Props" unique_id=261313969]
+position = Vector2(23861, 84.99999)
+rotation = -1.5713434
+scale = Vector2(5, 5)
+texture = ExtResource("15_vrls7")
+
+[node name="Fb011" type="Sprite2D" parent="Props" unique_id=939924573]
+position = Vector2(23925, 70.999855)
+rotation = -1.531035
+scale = Vector2(5, 5)
+texture = ExtResource("15_vrls7")
+
+[node name="Decor9" type="Sprite2D" parent="Props" unique_id=1574488993]
+position = Vector2(24016, 12)
+texture = ExtResource("16_lq7vm")
+
+[node name="Decor11" type="Sprite2D" parent="Props" unique_id=419471407]
+position = Vector2(23272, 0)
+texture = ExtResource("16_lq7vm")
+
+[node name="Building4" type="Sprite2D" parent="Props" unique_id=310464404]
+position = Vector2(10220, -111)
+texture = ExtResource("17_ah67d")
+
+[node name="Building5" type="Sprite2D" parent="Props" unique_id=270277116]
+position = Vector2(11979, -116)
+texture = ExtResource("17_ah67d")
+
+[node name="CartoonMedievalArmoryLevelSetEnvironmentTree02" type="Sprite2D" parent="Props" unique_id=1960130689]
+position = Vector2(-2093, 28)
+texture = ExtResource("13_r6py6")
+
+[node name="CartoonMedievalArmoryLevelSetEnvironmentTree03" type="Sprite2D" parent="Props" unique_id=982163776]
+position = Vector2(-3310, 21)
+texture = ExtResource("13_r6py6")
+
+[node name="CartoonMedievalArmoryLevelSetEnvironmentTree04" type="Sprite2D" parent="Props" unique_id=426343582]
+position = Vector2(-2974, 23)
+texture = ExtResource("13_r6py6")
+
+[node name="CartoonMedievalArmoryLevelSetEnvironmentRock08" type="Sprite2D" parent="Props" unique_id=641467498]
+position = Vector2(-3509.0002, 204.00002)
+scale = Vector2(2.078125, 2.203125)
+texture = ExtResource("14_uvxyp")
+
+[node name="CartoonMedievalArmoryLevelSetEnvironmentGrass0124" type="Sprite2D" parent="Props" unique_id=946547266]
+position = Vector2(-3049.0002, 207.00002)
+scale = Vector2(1.4140625, 1.671875)
+texture = ExtResource("16_57lim")
+
+[node name="CartoonMedievalArmoryLevelSetEnvironmentGrass0125" type="Sprite2D" parent="Props" unique_id=51446304]
+position = Vector2(-3185, 207)
+scale = Vector2(1.4140625, 1.671875)
+texture = ExtResource("16_57lim")
+
+[node name="CartoonMedievalArmoryLevelSetEnvironmentGrass0126" type="Sprite2D" parent="Props" unique_id=748503274]
+position = Vector2(-3382, 205.00002)
+scale = Vector2(1.4140625, 1.671875)
+texture = ExtResource("16_57lim")
+
+[node name="CartoonMedievalArmoryLevelSetEnvironmentStump" type="Sprite2D" parent="Props" unique_id=1775475911]
+position = Vector2(-2823, 199)
+texture = ExtResource("17_8sna8")
+
+[node name="CartoonMedievalArmoryLevelSetEnvironmentRock02" type="Sprite2D" parent="Props" unique_id=243770253]
+position = Vector2(-2817, 103)
+texture = ExtResource("18_lro5e")
+
+[node name="Tree1" type="Sprite2D" parent="Props" unique_id=1207581355]
+position = Vector2(1677, -16)
+texture = ExtResource("19_t8pe8")
+
+[node name="Tree3" type="Sprite2D" parent="Props" unique_id=2007641540]
+position = Vector2(1462, -22)
+texture = ExtResource("19_t8pe8")
+
+[node name="Tree4" type="Sprite2D" parent="Props" unique_id=2124317900]
+position = Vector2(1286, -27)
+texture = ExtResource("19_t8pe8")
+
+[node name="Tree2" type="Sprite2D" parent="Props" unique_id=1201641615]
+position = Vector2(3665, 10)
+texture = ExtResource("20_rj35a")
+
+[node name="Greenery2" type="Sprite2D" parent="Props" unique_id=1923572560]
+position = Vector2(1430, 216)
+texture = ExtResource("26_1k485")
+
+[node name="Building1" type="Sprite2D" parent="Props" unique_id=618625767]
+position = Vector2(-2501, -32)
+texture = ExtResource("27_fpfv4")
+
+[node name="Greenery4" type="Sprite2D" parent="Props" unique_id=1255468366]
+position = Vector2(2038, 196)
+texture = ExtResource("28_tw5au")
+
+[node name="Greenery5" type="Sprite2D" parent="Props" unique_id=835963978]
+position = Vector2(1905, 193)
+texture = ExtResource("28_tw5au")
+
+[node name="Greenery6" type="Sprite2D" parent="Props" unique_id=619400941]
+position = Vector2(1270, 234)
+texture = ExtResource("29_8jt5k")
+
+[node name="Greenery1" type="Sprite2D" parent="Props" unique_id=1515458862]
+position = Vector2(1251, 166)
+texture = ExtResource("30_6qphk")
+
+[node name="Orig4" type="Sprite2D" parent="Props" unique_id=809762747]
+z_index = -50
+position = Vector2(8864.4, -813.60004)
+scale = Vector2(7.2000003, 7.2000003)
+texture = ExtResource("4_7p505")
+metadata/_edit_lock_ = true
+
+[node name="Decor15" type="Sprite2D" parent="Props" unique_id=319525476]
+position = Vector2(614, 195)
+texture = ExtResource("31_84hio")
+
+[node name="Decor16" type="Sprite2D" parent="Props" unique_id=35830555]
+position = Vector2(354, 193)
+rotation = 0.024149673
+texture = ExtResource("31_84hio")
+
+[node name="Building2" type="Sprite2D" parent="Props" unique_id=990830328]
+position = Vector2(3172, -73)
+texture = ExtResource("32_j5plt")
+
+[node name="Decor1" type="Sprite2D" parent="Props" unique_id=252547125]
+position = Vector2(2821, 139)
+texture = ExtResource("33_1l4mx")
+
+[node name="Chest" type="Sprite2D" parent="Props" unique_id=812017123]
+position = Vector2(2692, 198)
+scale = Vector2(5.046875, 3.65625)
+texture = ExtResource("34_rds85")
+
+[node name="CartoonMedievalArmoryLevelSetEnvironmentQuestBoard" type="Sprite2D" parent="Props" unique_id=1072508371]
+position = Vector2(3834, 137)
+texture = ExtResource("35_ossaq")
+
+[node name="CartoonMedievalArmoryLevelSetEnvironmentRock03" type="Sprite2D" parent="Props" unique_id=40976295]
+position = Vector2(3464, 216)
+texture = ExtResource("18_lro5e")
+
+[node name="CartoonMedievalArmoryLevelSetBuildingDecorWeapon03" type="Sprite2D" parent="Props" unique_id=813675929]
+position = Vector2(8834, 2)
+texture = ExtResource("36_iu87v")
+
+[node name="CartoonMedievalArmoryLevelSetBuildingDecorWeapon04" type="Sprite2D" parent="Props" unique_id=1334971523]
+position = Vector2(8825, 88)
+texture = ExtResource("37_eo81v")
+
+[node name="Building8" type="Sprite2D" parent="Props" unique_id=101670321]
+position = Vector2(8834, 224)
+texture = ExtResource("38_v38dr")
+
+[node name="Decor17" type="Sprite2D" parent="Props" unique_id=1296566024]
+position = Vector2(8032, 66)
+texture = ExtResource("39_3b3c1")
+
+[node name="CartoonMedievalArmoryLevelSetEnvironmentShield01" type="Sprite2D" parent="Props" unique_id=1957509930]
+position = Vector2(8975, 67)
+texture = ExtResource("40_nf6f7")
+
+[node name="CartoonMedievalArmoryLevelSetEnvironmentSack02" type="Sprite2D" parent="Props" unique_id=2003053775]
+position = Vector2(8151, 72)
+texture = ExtResource("41_qiirx")
+
+[node name="Building3" type="Sprite2D" parent="Props" unique_id=1356412421]
+position = Vector2(8484, -142)
+texture = ExtResource("42_arc0v")
+
+[node name="Decor4" type="Sprite2D" parent="Props" unique_id=638865917]
+position = Vector2(-1864, 160)
+scale = Vector2(1.2, 1.2)
+texture = ExtResource("43_a08bp")
+
+[node name="Decor8" type="Sprite2D" parent="Props" unique_id=1227250986]
+position = Vector2(-110.99997, 199)
+scale = Vector2(1.0978541, 0.6958904)
+texture = ExtResource("44_u0l7j")
+
+[node name="Decor18" type="Sprite2D" parent="Props" unique_id=216949742]
+position = Vector2(-316, 185.99998)
+scale = Vector2(1.2, 1.2)
+texture = ExtResource("39_3b3c1")
+
+[node name="Decor14" type="Sprite2D" parent="Props" unique_id=165411004]
+position = Vector2(-1010, 164)
+scale = Vector2(1.2, 1.2)
+texture = ExtResource("45_uf5fe")
+
+[node name="Greenery3" type="Sprite2D" parent="Props" unique_id=1162203025]
+position = Vector2(1635.0001, 194)
+scale = Vector2(1.2, 1.2)
+texture = ExtResource("26_1k485")
+
+[node name="Greenery7" type="Sprite2D" parent="Props" unique_id=1742151628]
+position = Vector2(1797.0001, 206)
+scale = Vector2(1.2, 1.2)
+texture = ExtResource("26_1k485")
+
+[node name="Greenery8" type="Sprite2D" parent="Props" unique_id=888954799]
+position = Vector2(1934.0004, 132)
+scale = Vector2(2.3530853, 1.3980296)
+texture = ExtResource("30_6qphk")
+
+[node name="CartoonMedievalArmoryLevelSetEnvironmentStump2" type="Sprite2D" parent="Props" unique_id=603302905]
+position = Vector2(4168, 179)
+scale = Vector2(1.2, 1.2)
+texture = ExtResource("17_8sna8")
+
+[node name="CartoonMedievalArmoryLevelSetEnvironmentStand" type="Sprite2D" parent="Props" unique_id=1412474855]
+position = Vector2(4242, -6)
+scale = Vector2(1.2, 1.2)
+texture = ExtResource("46_uld2w")
+
+[node name="CartoonMedievalArmoryLevelSetEnvironmentTree05" type="Sprite2D" parent="Props" unique_id=445913842]
+position = Vector2(9829, -106)
+texture = ExtResource("13_r6py6")
+
+[node name="CartoonMedievalArmoryLevelSetEnvironmentTree06" type="Sprite2D" parent="Props" unique_id=1379170935]
+position = Vector2(12406.001, -106)
+rotation = -0.0025157484
+texture = ExtResource("13_r6py6")
+
+[node name="CartoonMedievalArmoryLevelSetEnvironmentStorage02" type="Sprite2D" parent="Props" unique_id=1711278864]
+position = Vector2(10556, 15)
+texture = ExtResource("47_ethnt")
+
+[node name="CartoonMedievalArmoryLevelSetEnvironmentStump3" type="Sprite2D" parent="Props" unique_id=790127953]
+position = Vector2(10742, 78)
+texture = ExtResource("17_8sna8")
+
+[node name="CartoonMedievalArmoryLevelSetEnvironmentStorage01" type="Sprite2D" parent="Props" unique_id=1152151943]
+position = Vector2(10984, 9)
+texture = ExtResource("48_6xne0")
+
+[node name="CartoonMedievalArmoryLevelSetEnvironmentSword01" type="Sprite2D" parent="Props" unique_id=1612936966]
+position = Vector2(10772, -27)
+texture = ExtResource("49_4ytmq")
+
+[node name="Decor19" type="Sprite2D" parent="Props" unique_id=1972005010]
+position = Vector2(11308, 66)
+texture = ExtResource("31_84hio")
+
+[node name="Decor20" type="Sprite2D" parent="Props" unique_id=1145487594]
+position = Vector2(11582, 70)
+texture = ExtResource("31_84hio")
+
+[node name="CartoonMedievalArmoryLevelSetEnvironmentSign02" type="Sprite2D" parent="Props" unique_id=1425907022]
+position = Vector2(11030, -153)
+scale = Vector2(1, 1.19375)
+texture = ExtResource("50_hodcb")
+
+[node name="CartoonMedievalArmoryLevelSetEnvironmentSack01" type="Sprite2D" parent="Props" unique_id=1055955803]
+position = Vector2(11013, -171)
+scale = Vector2(0.765625, 0.6796875)
+texture = ExtResource("51_pxf7m")
+
+[node name="Building6" type="Sprite2D" parent="Props" unique_id=268079589]
+position = Vector2(15972, -127)
+texture = ExtResource("52_1bauq")
+
+[node name="Building7" type="Sprite2D" parent="Props" unique_id=2007745993]
+position = Vector2(17134, -284)
+scale = Vector2(1.0386479, 0.9787186)
+texture = ExtResource("53_7a3qq")
+
+[node name="Building9" type="Sprite2D" parent="Props" unique_id=2098422586]
+position = Vector2(20252.998, -313)
+scale = Vector2(1.2, 1.2)
+texture = ExtResource("54_p2fyp")
+
+[node name="Building10" type="Sprite2D" parent="Props" unique_id=1397526018]
+position = Vector2(21539, -302)
+scale = Vector2(1.2, 1.2)
+texture = ExtResource("54_p2fyp")
+
+[node name="Tree5" type="Sprite2D" parent="Props" unique_id=1505326832]
+position = Vector2(15179, -119)
+texture = ExtResource("20_rj35a")
+
+[node name="Tree6" type="Sprite2D" parent="Props" unique_id=262036223]
+position = Vector2(16488, -119)
+texture = ExtResource("20_rj35a")
+flip_h = true
+
+[node name="Greenery9" type="Sprite2D" parent="Props" unique_id=736812816]
+z_index = -1
+position = Vector2(16512, 107)
+texture = ExtResource("26_1k485")
+
+[node name="Greenery10" type="Sprite2D" parent="Props" unique_id=1552747550]
+z_index = -1
+position = Vector2(16613, 119)
+texture = ExtResource("26_1k485")
+
+[node name="Stones1" type="Sprite2D" parent="Props" unique_id=341330379]
+position = Vector2(16413, 111)
+texture = ExtResource("55_53sir")
+
+[node name="Chest2" type="Sprite2D" parent="Props" unique_id=1331290944]
+position = Vector2(16400, 100)
+scale = Vector2(3.21875, 2.6875)
+texture = ExtResource("34_rds85")
+
+[node name="Decor10" type="Sprite2D" parent="Props" unique_id=51045108]
+position = Vector2(15543.001, 82)
+scale = Vector2(1.2, 1.2)
+texture = ExtResource("56_4kvjh")
+
+[node name="ColorRect" type="ColorRect" parent="Props" unique_id=470645850]
+z_index = -100
+offset_left = -6462.0
+offset_top = 336.0
+offset_right = 31894.0
+offset_bottom = 2067.0
+color = Color(0, 0.4117647, 0.5803922, 1)
+metadata/_edit_lock_ = true
+
+[node name="Building13" type="Sprite2D" parent="Props" unique_id=1322977329]
+position = Vector2(23383, 234.00046)
+rotation = 0.2617994
+scale = Vector2(0.99999994, 0.99999994)
+texture = ExtResource("38_v38dr")
+
+[node name="Building14" type="Sprite2D" parent="Props" unique_id=1940157985]
+position = Vector2(23517, 225.00049)
+rotation = 0.2617994
+scale = Vector2(0.99999994, 0.99999994)
+texture = ExtResource("38_v38dr")
+
+[node name="Building15" type="Sprite2D" parent="Props" unique_id=1395978906]
+position = Vector2(23664, 233.00046)
+rotation = 0.2617994
+scale = Vector2(0.99999994, 0.99999994)
+texture = ExtResource("38_v38dr")
+
+[node name="Building16" type="Sprite2D" parent="Props" unique_id=1728516202]
+position = Vector2(23790, 230.99979)
+rotation = -0.13110659
+texture = ExtResource("38_v38dr")
+
+[node name="Building17" type="Sprite2D" parent="Props" unique_id=353807171]
+position = Vector2(23790, 230.99979)
+rotation = -0.13110659
+texture = ExtResource("38_v38dr")
+
+[node name="Building18" type="Sprite2D" parent="Props" unique_id=1018494211]
+position = Vector2(23805.002, 302.0002)
+rotation = 0.7853982
+scale = Vector2(0.99999994, 0.99999994)
+texture = ExtResource("38_v38dr")
+
+[node name="Building19" type="Sprite2D" parent="Props" unique_id=1625601098]
+position = Vector2(23715, 322.9998)
+rotation = 2.6179938
+texture = ExtResource("38_v38dr")
+
+[node name="Building20" type="Sprite2D" parent="Props" unique_id=625730368]
+position = Vector2(23647, 335.99924)
+rotation = 2.6179938
+texture = ExtResource("38_v38dr")
+
+[node name="Building21" type="Sprite2D" parent="Props" unique_id=1518867166]
+position = Vector2(23540.002, 348.9993)
+rotation = 2.8797934
+texture = ExtResource("38_v38dr")
+
+[node name="Building22" type="Sprite2D" parent="Props" unique_id=1472462117]
+position = Vector2(23478, 357.0007)
+rotation = 2.8797934
+texture = ExtResource("38_v38dr")
+
+[node name="Building23" type="Sprite2D" parent="Props" unique_id=829288109]
+position = Vector2(23505, 309.00027)
+rotation = -2.0999086
+texture = ExtResource("38_v38dr")
+
+[node name="Building24" type="Sprite2D" parent="Props" unique_id=258887403]
+position = Vector2(23425, 325.99924)
+rotation = -2.8797932
+texture = ExtResource("38_v38dr")
+
+[node name="Building25" type="Sprite2D" parent="Props" unique_id=84209829]
+position = Vector2(23266, 233)
+rotation = 0.7853982
+scale = Vector2(0.99999994, 0.99999994)
+texture = ExtResource("38_v38dr")
+
+[node name="Building26" type="Sprite2D" parent="Props" unique_id=693724387]
+position = Vector2(23302.002, 333)
+rotation = -0.67884445
+texture = ExtResource("38_v38dr")
+
+[node name="Building27" type="Sprite2D" parent="Props" unique_id=413832242]
+position = Vector2(23302.002, 333)
+rotation = -1.5707964
+texture = ExtResource("38_v38dr")
+
+[node name="Blood" type="Sprite2D" parent="Props" unique_id=1770670929]
+z_index = 4
+position = Vector2(23834, -133)
+texture = ExtResource("57_iu87v")
+
+[node name="Blood2" type="Sprite2D" parent="Props" unique_id=1110277252]
+z_index = 4
+position = Vector2(23504, -174)
+texture = ExtResource("57_iu87v")
+
+[node name="CartoonMedievalArmoryLevelSetEnvironmentStorage03" type="Sprite2D" parent="Props" unique_id=1360609657]
+position = Vector2(24314, 6)
+texture = ExtResource("47_ethnt")
+
+[node name="CartoonMedievalArmoryLevelSetEnvironmentStorage04" type="Sprite2D" parent="Props" unique_id=162599590]
+position = Vector2(23019, 0)
+texture = ExtResource("47_ethnt")
+
+[node name="Enemeis" type="Node2D" parent="." unique_id=1790323480]
+
+[node name="goblin4" parent="Enemeis" unique_id=1732182595 instance=ExtResource("57_oekip")]
+position = Vector2(15505, -18)
+
+[node name="goblin2" parent="Enemeis" unique_id=870915310 instance=ExtResource("57_oekip")]
+position = Vector2(10251, -6)
+
+[node name="goblin3" parent="Enemeis" unique_id=306492396 instance=ExtResource("57_oekip")]
+position = Vector2(11579, 12)
+
+[node name="warrior" parent="Enemeis" unique_id=471097113 instance=ExtResource("58_o0yqk")]
+position = Vector2(10783, -5)
+
+[node name="Enemy Bersek" parent="Enemeis" unique_id=545044410 instance=ExtResource("59_o08a2")]
+position = Vector2(11117, 25)
+
+[node name="chicken3" parent="Enemeis" unique_id=2311492 instance=ExtResource("60_v254t")]
+position = Vector2(13119, -718)
+
+[node name="shaman" parent="Enemeis" unique_id=2044635982 instance=ExtResource("61_tk37w")]
+position = Vector2(5792, -1050)
+
+[node name="shaman2" parent="Enemeis" unique_id=1317734109 instance=ExtResource("61_tk37w")]
+position = Vector2(6600, -921)
+
+[node name="goblin" parent="Enemeis" unique_id=1438586851 instance=ExtResource("57_oekip")]
+position = Vector2(3105.0002, 120.00001)
+scale = Vector2(1.2, 1.2)
+
+[node name="shaman3" parent="Enemeis" unique_id=97112520 instance=ExtResource("61_tk37w")]
+position = Vector2(16740, -27)
+
+[node name="Food" type="Node2D" parent="." unique_id=957717355]
+
+[node name="Turkey" parent="Food" unique_id=780762173 instance=ExtResource("62_rnkw8")]
+z_index = 2
+position = Vector2(8170, 86)
+
+[node name="chicken" parent="Food" unique_id=659488954 instance=ExtResource("60_v254t")]
+position = Vector2(13112, -191)
+
+[node name="chicken2" parent="Food" unique_id=1640691126 instance=ExtResource("60_v254t")]
+position = Vector2(13117, -447)
+
+[node name="Decor8" type="Sprite2D" parent="Food" unique_id=1044530234]
+position = Vector2(15291.25, 25)
+scale = Vector2(1.0021459, 1)
+texture = ExtResource("44_u0l7j")
+
+[node name="bodies" type="Node2D" parent="." unique_id=1645103794]
+z_index = 14
+
+[node name="CaveWoman" type="Sprite2D" parent="bodies" unique_id=1401138703]
+position = Vector2(23800.002, -353)
+scale = Vector2(0.09020845, 0.098297365)
+texture = ExtResource("63_lf061")
+
+[node name="CaveWoman7" type="Sprite2D" parent="bodies" unique_id=1393096098]
+position = Vector2(23951.002, -155)
+scale = Vector2(0.09020845, 0.098297365)
+texture = ExtResource("63_lf061")
+
+[node name="CaveWoman9" type="Sprite2D" parent="bodies" unique_id=856278626]
+position = Vector2(23489.998, -299.1723)
+rotation = 0.7160975
+scale = Vector2(0.09020845, 0.098297365)
+texture = ExtResource("63_lf061")
+
+[node name="CaveWoman15" type="Sprite2D" parent="bodies" unique_id=759108759]
+position = Vector2(23671.002, -160.17358)
+rotation = 2.306774
+scale = Vector2(0.09020845, 0.098297365)
+texture = ExtResource("63_lf061")
+
+[node name="CaveWoman20" type="Sprite2D" parent="bodies" unique_id=397946788]
+position = Vector2(23371.26, -265.42737)
+rotation = 2.6293907
+scale = Vector2(0.09020845, 0.098297365)
+texture = ExtResource("63_lf061")
+
+[node name="CaveWoman6" type="Sprite2D" parent="bodies" unique_id=603662539]
+position = Vector2(23379.508, -113.763794)
+scale = Vector2(0.09020845, 0.098297365)
+texture = ExtResource("63_lf061")
+
+[node name="CaveWoman2" type="Sprite2D" parent="bodies" unique_id=1443325851]
+position = Vector2(23397.508, -180.7638)
+scale = Vector2(0.09020845, 0.098297365)
+texture = ExtResource("63_lf061")
+
+[node name="CaveWoman5" type="Sprite2D" parent="bodies" unique_id=1621636153]
+position = Vector2(23453.51, -194.7638)
+rotation = -1.5866923
+scale = Vector2(0.09020845, 0.098297365)
+texture = ExtResource("63_lf061")
+
+[node name="CaveWoman10" type="Sprite2D" parent="bodies" unique_id=1107830232]
+position = Vector2(23432, -238.99991)
+rotation = -3.9724493
+scale = Vector2(0.09020845, 0.098297365)
+texture = ExtResource("63_lf061")
+
+[node name="CaveWoman16" type="Sprite2D" parent="bodies" unique_id=2010150075]
+position = Vector2(23397.508, -244.76477)
+rotation = -3.9724493
+scale = Vector2(0.09020845, 0.098297365)
+texture = ExtResource("63_lf061")
+
+[node name="CaveWoman3" type="Sprite2D" parent="bodies" unique_id=1640883479]
+position = Vector2(23720.51, -135.7638)
+scale = Vector2(0.09020845, 0.098297365)
+texture = ExtResource("63_lf061")
+
+[node name="CaveWoman4" type="Sprite2D" parent="bodies" unique_id=1519373174]
+position = Vector2(23887.25, -108.006226)
+scale = Vector2(0.09020845, 0.098297365)
+texture = ExtResource("63_lf061")
+
+[node name="CaveWoman24" type="Sprite2D" parent="bodies" unique_id=1122514737]
+position = Vector2(23912.248, -251.00623)
+rotation = -1.9662905
+scale = Vector2(0.09020845, 0.098297365)
+texture = ExtResource("63_lf061")
+
+[node name="CaveWoman21" type="Sprite2D" parent="bodies" unique_id=1297122776]
+position = Vector2(23544.002, -320.66925)
+scale = Vector2(0.09020845, 0.098297365)
+texture = ExtResource("63_lf061")
+
+[node name="CaveWoman11" type="Sprite2D" parent="bodies" unique_id=907280672]
+position = Vector2(23636.51, -241.7638)
+scale = Vector2(0.09020845, 0.098297365)
+texture = ExtResource("63_lf061")
+
+[node name="CaveWoman8" type="Sprite2D" parent="bodies" unique_id=1519212659]
+position = Vector2(23881.508, -183.7638)
+rotation = -1.6696355
+scale = Vector2(0.09020845, 0.098297365)
+texture = ExtResource("63_lf061")
+
+[node name="CaveWoman14" type="Sprite2D" parent="bodies" unique_id=1171020994]
+position = Vector2(23881.51, -213.76337)
+rotation = -3.0292988
+scale = Vector2(0.09020845, 0.098297365)
+texture = ExtResource("63_lf061")
+
+[node name="CaveWoman13" type="Sprite2D" parent="bodies" unique_id=33244604]
+position = Vector2(23800.51, -224.7638)
+rotation = -3.5844653
+scale = Vector2(0.09020845, 0.098297365)
+texture = ExtResource("63_lf061")
+
+[node name="CaveWoman12" type="Sprite2D" parent="bodies" unique_id=1221994171]
+position = Vector2(23733.508, -252.76282)
+rotation = -3.6088948
+scale = Vector2(0.09020845, 0.098297365)
+texture = ExtResource("63_lf061")
+
+[node name="CaveWoman19" type="Sprite2D" parent="bodies" unique_id=814799224]
+position = Vector2(23841.506, -249.76404)
+rotation = -4.5879707
+scale = Vector2(0.09020845, 0.098297365)
+texture = ExtResource("63_lf061")
+
+[node name="CaveWoman22" type="Sprite2D" parent="bodies" unique_id=1650511913]
+position = Vector2(23641, -219.17377)
+rotation = -4.352095
+scale = Vector2(0.09020845, 0.098297365)
+texture = ExtResource("63_lf061")
+
+[node name="CaveWoman23" type="Sprite2D" parent="bodies" unique_id=100294781]
+position = Vector2(23735, -285.66974)
+rotation = -4.9358606
+scale = Vector2(0.09020845, 0.098297365)
+texture = ExtResource("63_lf061")
+
+[node name="CaveWoman18" type="Sprite2D" parent="bodies" unique_id=1925782709]
+position = Vector2(23504.262, -247.42621)
+rotation = -4.870228
+scale = Vector2(0.09020845, 0.098297365)
+texture = ExtResource("63_lf061")
+
+[node name="CaveWoman17" type="Sprite2D" parent="bodies" unique_id=1162747242]
+position = Vector2(23593.508, -254.76385)
+rotation = -4.6700907
+scale = Vector2(0.09020845, 0.098297365)
+texture = ExtResource("63_lf061")
+
+[node name="DeadCav" type="Sprite2D" parent="bodies" unique_id=1173699002]
+position = Vector2(23471.508, -113.763794)
+texture = ExtResource("64_r5gki")
+
+[node name="DeadCav8" type="Sprite2D" parent="bodies" unique_id=1002638025]
+position = Vector2(23530.508, -110.763794)
+texture = ExtResource("64_r5gki")
+
+[node name="DeadCav2" type="Sprite2D" parent="bodies" unique_id=181632893]
+position = Vector2(23615.008, -104.263794)
+texture = ExtResource("64_r5gki")
+
+[node name="DeadCav4" type="Sprite2D" parent="bodies" unique_id=364143939]
+position = Vector2(23554.508, -182.7638)
+texture = ExtResource("64_r5gki")
+
+[node name="DeadCav5" type="Sprite2D" parent="bodies" unique_id=1721399175]
+position = Vector2(23615.008, -104.263794)
+texture = ExtResource("64_r5gki")
+
+[node name="DeadCav7" type="Sprite2D" parent="bodies" unique_id=1767156482]
+position = Vector2(23655.998, -245.6695)
+rotation = 0.63479763
+texture = ExtResource("64_r5gki")
+
+[node name="DeadCav13" type="Sprite2D" parent="bodies" unique_id=942853972]
+position = Vector2(23670.26, -240.42682)
+rotation = 1.7062042
+texture = ExtResource("64_r5gki")
+
+[node name="DeadCav14" type="Sprite2D" parent="bodies" unique_id=2145565741]
+position = Vector2(23694.998, -259.17328)
+rotation = 1.7062042
+texture = ExtResource("64_r5gki")
+
+[node name="DeadCav10" type="Sprite2D" parent="bodies" unique_id=2027859527]
+position = Vector2(23519.508, -236.7638)
+rotation = 0.89858556
+texture = ExtResource("64_r5gki")
+
+[node name="DeadCav12" type="Sprite2D" parent="bodies" unique_id=1870352051]
+position = Vector2(23448, -261.66974)
+rotation = 1.8985016
+texture = ExtResource("64_r5gki")
+
+[node name="DeadCav3" type="Sprite2D" parent="bodies" unique_id=1163149223]
+position = Vector2(23777.508, -96.763794)
+rotation = 0.0076181525
+texture = ExtResource("64_r5gki")
+
+[node name="DeadCav6" type="Sprite2D" parent="bodies" unique_id=1434926793]
+position = Vector2(23833.506, -171.7638)
+rotation = 0.49227938
+texture = ExtResource("64_r5gki")
+
+[node name="DeadCav9" type="Sprite2D" parent="bodies" unique_id=573892627]
+position = Vector2(23750.508, -199.76282)
+rotation = 0.4267307
+texture = ExtResource("64_r5gki")
+
+[node name="DeadCav11" type="Sprite2D" parent="bodies" unique_id=1387291776]
+position = Vector2(23636, -280.17328)
+rotation = 1.009409
+texture = ExtResource("64_r5gki")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1827227995]
+position = Vector2(23659, -614.00006)
+scale = Vector2(0.45, 0.406)
+sprite_frames = SubResource("SpriteFrames_7ouyb")
+autoplay = "default"
+frame_progress = 0.19248927
+
+[node name="AnimatedSprite2D2" type="AnimatedSprite2D" parent="." unique_id=2041169306]
+z_index = 17
+position = Vector2(23267, -329)
+scale = Vector2(2, 1.136)
+sprite_frames = SubResource("SpriteFrames_kw6wd")
+frame_progress = 0.0060665244
+metadata/_edit_lock_ = true
+
+[node name="AnimatedSprite2D3" type="AnimatedSprite2D" parent="." unique_id=424542398]
+z_index = 17
+position = Vector2(24023, -257.00003)
+scale = Vector2(2, 1.136)
+sprite_frames = SubResource("SpriteFrames_kw6wd")
+autoplay = "default"
+frame_progress = 0.23545225
+
+[node name="AnimatedSprite2D4" type="AnimatedSprite2D" parent="." unique_id=2080623258]
+z_index = 17
+position = Vector2(23656, -426.00003)
+scale = Vector2(2, 1.136)
+sprite_frames = SubResource("SpriteFrames_kw6wd")
+autoplay = "default"
+frame_progress = 0.32220608
+
+[node name="CartoonMedievalArmoryLevelSetBuildingPillar02" type="Sprite2D" parent="." unique_id=724523562]
+position = Vector2(23681.889, -792.4784)
+rotation = -1.585596
+scale = Vector2(0.578125, 1.6243652)
+texture = ExtResource("67_6pc82")
+
+[node name="CartoonMedievalArmoryLevelSetBuildingPillar03" type="Sprite2D" parent="." unique_id=2016510108]
+position = Vector2(23676.363, -534.00006)
+rotation = 1.5707964
+scale = Vector2(0.578125, 1.9596955)
+texture = ExtResource("67_6pc82")
+
+[node name="CartoonMedievalArmoryLevelSetBuildingPillar04" type="Sprite2D" parent="." unique_id=267275877]
+position = Vector2(23382.21, -651.07214)
+rotation = 0.015881924
+scale = Vector2(0.578125, 0.733695)
+texture = ExtResource("67_6pc82")
+
+[node name="CartoonMedievalArmoryLevelSetBuildingPillar05" type="Sprite2D" parent="." unique_id=313206705]
+position = Vector2(23976.002, -654.00006)
+rotation = 0.015881924
+scale = Vector2(0.578125, 0.733695)
+texture = ExtResource("67_6pc82")
+
+[node name="FinishLine" parent="." unique_id=1774973070 instance=ExtResource("68_lq7vm")]
+position = Vector2(23668, -621)
+scale = Vector2(0.3, 0.3)
+script = ExtResource("69_ah67d")
+next_level_path = "res://scenes/outro_cutscene.tscn"
+
+[node name="goblin" parent="." unique_id=1428553030 instance=ExtResource("57_oekip")]
+position = Vector2(22553, -229)
+
+[node name="goblin2" parent="." unique_id=1837810882 instance=ExtResource("57_oekip")]
+position = Vector2(24811, -223)
+
+[node name="shaman" parent="." unique_id=566679463 instance=ExtResource("61_tk37w")]
+position = Vector2(22897, -807)
+
+[node name="shaman3" parent="." unique_id=300406115 instance=ExtResource("61_tk37w")]
+position = Vector2(23115, -20)
+metadata/_edit_lock_ = true
+
+[node name="shaman4" parent="." unique_id=907691671 instance=ExtResource("61_tk37w")]
+position = Vector2(24213, -35)
+metadata/_edit_lock_ = true
+
+[node name="shaman2" parent="." unique_id=1671935224 instance=ExtResource("61_tk37w")]
+position = Vector2(24313, -785)
+
+[node name="Enemy Bersek" parent="." unique_id=312260784 instance=ExtResource("59_o08a2")]
+position = Vector2(23283, -1001)
+
+[node name="Enemy Bersek2" parent="." unique_id=1376031631 instance=ExtResource("59_o08a2")]
+position = Vector2(24088, -1013)
+
+[node name="warrior" parent="." unique_id=2024178715 instance=ExtResource("58_o0yqk")]
+position = Vector2(23586, -1270)
+
+[node name="warrior2" parent="." unique_id=1062252015 instance=ExtResource("58_o0yqk")]
+position = Vector2(23780, -1274)
+
+[node name="Turkey" parent="." unique_id=373390848 instance=ExtResource("62_rnkw8")]
+position = Vector2(23671, -1228)
+
+[node name="chicken" parent="." unique_id=682725624 instance=ExtResource("60_v254t")]
+position = Vector2(24766, -220)
+
+[node name="chicken2" parent="." unique_id=1778719370 instance=ExtResource("60_v254t")]
+position = Vector2(18122, 72)
+
+[node name="Decor15" type="Sprite2D" parent="." unique_id=1033532342]
+position = Vector2(22092, 63)
+texture = ExtResource("31_84hio")
+
+[node name="Decor17" type="Sprite2D" parent="." unique_id=607398705]
+position = Vector2(22356.002, 62)
+rotation = -0.0050201816
+texture = ExtResource("31_84hio")
+
+[node name="Decor18" type="Sprite2D" parent="." unique_id=829317043]
+position = Vector2(22650.002, 55)
+rotation = -0.0050201816
+texture = ExtResource("31_84hio")
+metadata/_edit_lock_ = true
+
+[node name="Tree2" type="Sprite2D" parent="." unique_id=138059913]
+position = Vector2(18753, -127)
+texture = ExtResource("20_rj35a")
+
+[node name="CartoonMedievalArmoryLevelSetEnvironmentTree02" type="Sprite2D" parent="." unique_id=1189186171]
+position = Vector2(24641, -104)
+texture = ExtResource("13_r6py6")
+
+[node name="Weapon" type="Sprite2D" parent="." unique_id=549438324]
+position = Vector2(19651, 84)
+scale = Vector2(0.65833336, 0.7111111)
+texture = ExtResource("71_eo81v")
+
+[node name="CartoonMedievalArmoryLevelSetEnvironmentStorage01" type="Sprite2D" parent="." unique_id=747246869]
+position = Vector2(20723, -1)
+texture = ExtResource("48_6xne0")
+
+[node name="CartoonMedievalArmoryLevelSetEnvironmentStandSpear" type="Sprite2D" parent="." unique_id=1105358860]
+position = Vector2(19422, 1)
+texture = ExtResource("72_v38dr")
+
+[node name="CartoonMedievalArmoryLevelSetEnvironmentStump" type="Sprite2D" parent="." unique_id=648466283]
+position = Vector2(21062, 64)
+texture = ExtResource("17_8sna8")
+
+[node name="CartoonMedievalArmoryLevelSetEnvironmentShield03" type="Sprite2D" parent="." unique_id=90665616]
+position = Vector2(21062, -42)
+texture = ExtResource("73_3b3c1")
+
+[node name="CartoonMedievalArmoryLevelSetEnvironmentSack02" type="Sprite2D" parent="." unique_id=321761039]
+position = Vector2(26646, 66)
+texture = ExtResource("41_qiirx")
+
+[node name="CartoonMedievalArmoryLevelSetEnvironmentGrass0123" type="Sprite2D" parent="." unique_id=893313251]
+position = Vector2(27082, 96)
+texture = ExtResource("74_nf6f7")
+
+[node name="CartoonMedievalArmoryLevelSetEnvironmentGrass0124" type="Sprite2D" parent="." unique_id=1132542383]
+position = Vector2(26143, 102)
+texture = ExtResource("74_nf6f7")
+
+[node name="CartoonMedievalArmoryLevelSetEnvironmentGrass0125" type="Sprite2D" parent="." unique_id=677810386]
+position = Vector2(25653, 106)
+texture = ExtResource("74_nf6f7")
+
+[node name="CartoonMedievalArmoryLevelSetEnvironmentRock01" type="Sprite2D" parent="." unique_id=1314080482]
+position = Vector2(26060, 98)
+texture = ExtResource("75_qiirx")
+
+[node name="CartoonMedievalArmoryLevelSetEnvironmentFence" type="Sprite2D" parent="." unique_id=1264857979]
+position = Vector2(25725, 19)
+texture = ExtResource("76_arc0v")
+
+[node name="CartoonMedievalArmoryLevelSetEnvironmentFence2" type="Sprite2D" parent="." unique_id=911457720]
+position = Vector2(25976, 15)
+texture = ExtResource("76_arc0v")
+
+[node name="Decor16" type="Sprite2D" parent="." unique_id=788533707]
+position = Vector2(18786, 64)
+texture = ExtResource("39_3b3c1")
+
+[node name="Greenery5" type="Sprite2D" parent="." unique_id=387015242]
+z_index = -1
+position = Vector2(19310, 98)
+texture = ExtResource("29_8jt5k")
+
+[node name="Decor1" type="Sprite2D" parent="." unique_id=1050124887]
+position = Vector2(19814, 10)
+texture = ExtResource("33_1l4mx")
+
+[node name="MarkerStatue4" type="Sprite2D" parent="." unique_id=127044435]
+position = Vector2(18946, 6)
+scale = Vector2(3.859375, 4.0625)
+texture = ExtResource("77_a08bp")
+
+[node name="CartoonMedievalArmoryLevelSetEnvironmentQuestBoard" type="Sprite2D" parent="." unique_id=1972518042]
+position = Vector2(19172, 8)
+texture = ExtResource("35_ossaq")
+
+[node name="CartoonMedievalArmoryLevelSetEnvironmentFence3" type="Sprite2D" parent="." unique_id=431098108]
+position = Vector2(22350, 19)
+texture = ExtResource("76_arc0v")
+
+[node name="CartoonMedievalArmoryLevelSetEnvironmentFence5" type="Sprite2D" parent="." unique_id=1301847597]
+position = Vector2(22085, 19)
+texture = ExtResource("76_arc0v")
+
+[node name="CartoonMedievalArmoryLevelSetEnvironmentFence4" type="Sprite2D" parent="." unique_id=777489721]
+position = Vector2(22646, 26)
+rotation = 0.008728721
+texture = ExtResource("76_arc0v")
+
+[node name="CartoonMedievalArmoryLevelSetEnvironmentGrass0126" type="Sprite2D" parent="." unique_id=420669853]
+position = Vector2(21924, 108)
+texture = ExtResource("16_57lim")
+
+[node name="CartoonMedievalArmoryLevelSetEnvironmentWoodenBarrel" type="Sprite2D" parent="." unique_id=763716014]
+position = Vector2(25923, 75)
+texture = ExtResource("78_u0l7j")
+
+[node name="CartoonMedievalArmoryLevelSetEnvironmentWoodenCrate" type="Sprite2D" parent="." unique_id=123183547]
+position = Vector2(26507, 72)
+texture = ExtResource("79_uf5fe")
+
+[node name="CartoonMedievalArmoryLevelSetEnvironmentSword03" type="Sprite2D" parent="." unique_id=1702587706]
+position = Vector2(25943, -33)
+texture = ExtResource("80_uld2w")
+
+[node name="Building1" type="Sprite2D" parent="." unique_id=336233662]
+z_index = -2
+position = Vector2(25233.002, -231)
+scale = Vector2(1.3776978, 1.3645484)
+texture = ExtResource("81_ethnt")
+
+[node name="Building2" type="Sprite2D" parent="." unique_id=751746091]
+z_index = -2
+position = Vector2(26242.002, -232)
+scale = Vector2(1.3776978, 1.3645484)
+texture = ExtResource("81_ethnt")
+
+[node name="Building3" type="Sprite2D" parent="." unique_id=1259694696]
+position = Vector2(27078, -292)
+texture = ExtResource("53_7a3qq")
+
+[node name="Decor4" type="Sprite2D" parent="." unique_id=416649085]
+position = Vector2(20934, 54)
+texture = ExtResource("43_a08bp")
+
+[node name="Blood" type="Sprite2D" parent="." unique_id=741293239]
+position = Vector2(20938.002, 36)
+scale = Vector2(0.36145648, 0.38169014)
+texture = ExtResource("57_iu87v")
+
+[node name="Blood2" type="Sprite2D" parent="." unique_id=1230291661]
+z_index = 8
+position = Vector2(23597, -137)
+texture = ExtResource("57_iu87v")
+
+[node name="CartoonMedievalArmoryLevelSetEnvironmentShield04" type="Sprite2D" parent="." unique_id=1928270299]
+position = Vector2(25207, -536)
+texture = ExtResource("73_3b3c1")
+
+[node name="CartoonMedievalArmoryLevelSetEnvironmentShield05" type="Sprite2D" parent="." unique_id=1425528845]
+position = Vector2(26214, -551)
+texture = ExtResource("73_3b3c1")
+
+[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=1279692760]
+process_mode = 3
+layer = 200
+script = ExtResource("81_eo81v")
+
+[node name="PauseMenu" parent="CanvasLayer" unique_id=156357199 instance=ExtResource("82_v38dr")]
+process_mode = 0
+visible = false
+anchors_preset = 15
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 0.0
+offset_bottom = 0.0
+main_menu_scene_path = "uid://giq6oufrky2i"
+menu_container_node_path = NodePath("../..")
+
+[connection signal="closed" from="CanvasLayer/PauseMenu" to="CanvasLayer" method="_on_pause_menu_closed"]

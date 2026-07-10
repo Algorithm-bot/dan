@@ -1,0 +1,78 @@
+[gd_scene format=3 uid="uid://xkth2dw4mi10"]
+
+[ext_resource type="Script" uid="uid://cc2wtqasev7le" path="res://addons/maaacks_menus_template/base/nodes/labels/credits_label.gd" id="1_mgx7b"]
+
+[node name="CreditsLabel" type="RichTextLabel" unique_id=525943618]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 3
+size_flags_vertical = 5
+bbcode_enabled = true
+text = "[font_size=48]Collaborators[/font_size]
+
+[font_size=32]Developer[/font_size]
+[url=https://www.linkedin.com/in/sahil-sawant-3b1131224/]Sahil Sawant[/url]
+
+[font_size=32]AI Assistants[/font_size]
+[url=https://chatgpt.com/]ChatGPT[/url]
+[url=https://gemini.google.com/]Google Gemini[/url]
+
+[font_size=32]Contact[/font_size]
+Email: [url=mailto:sahilsawant929@gmail.com]sahilsawant929@gmail.com[/url]
+GitHub: [url=https://github.com/Algorithm-bot]Algorithm-bot[/url]
+
+
+[font_size=48]Assets[/font_size]
+
+[font_size=24]Game Art Assets[/font_size]
+Author: [url=https://craftpix.net/]CraftPix[/url]
+Source: [url=https://craftpix.net/]craftpix.net[/url]
+License: As provided by CraftPix under the asset pack license.
+
+
+[font_size=48]Sourced[/font_size]
+
+[font_size=32]Asset Type[/font_size]
+
+[font_size=24]Godot Engine Logo[/font_size]
+Author: Andrea Calabró
+Source: [url=https://godotengine.org/press/]godotengine.org : press[/url]
+License: [url=https://github.com/godotengine/godot/blob/master/LOGO_LICENSE.txt]CC BY 4.0 International[/url]
+
+
+[font_size=48]Tools[/font_size]
+
+[font_size=24]Godot[/font_size]
+[img=80]res:///exampleScenes/assets/godot_engine_logo/logo_vertical_color_dark.png[/img]
+Author: [url=https://godotengine.org/contact]Juan Linietsky, Ariel Manzur, and contributors[/url]
+Source: [url=https://godotengine.org/]godotengine.org[/url]
+License: [url=https://github.com/godotengine/godot/blob/master/LICENSE.txt]MIT License[/url]
+
+
+[font_size=24]Godot Menus Template[/font_size]
+[img=80]res:///exampleScenes/assets/plugin_logo/logo.png[/img]
+Author: [url=https://github.com/Maaack/Godot-Menus-Template/graphs/contributors]Marek Belski and contributors[/url]
+Source: [url=https://github.com/Maaack/Godot-Menus-Template]github: Godot-Menus-Template[/url]
+License: [url=LICENSE.txt]MIT License[/url]
+
+
+[font_size=24]Git[/font_size]
+[img=80]res:///exampleScenes/assets/git_logo/Git-Logo-2Color.png[/img]
+Author: [url=https://github.com/torvalds]Linus Torvalds[/url]
+Source: [url=https://git-scm.com/downloads]git-scm.com[/url]
+License: [url=https://opensource.org/licenses/GPL-2.0]GNU General Public License version 2[/url]"
+fit_content = true
+scroll_active = false
+horizontal_alignment = 1
+script = ExtResource("1_mgx7b")
+attribution_file_path = "res://exampleScenes/ATTRIBUTION.md"
+h1_font_size = 64
+h2_font_size = 48
+h3_font_size = 32
+h4_font_size = 24
+h5_font_size = 20
+h6_font_size = 16
+max_image_width = 80

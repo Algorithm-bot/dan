@@ -1,0 +1,35 @@
+[gd_scene format=3 uid="uid://dx2p73ddh58vl"]
+
+[ext_resource type="Script" uid="uid://dhggxb8reu1ad" path="res://outro_cutscene.gd" id="1_f5jnq"]
+[ext_resource type="Texture2D" uid="uid://dscgykpbq87la" path="res://comic/24.png" id="2_6xgc4"]
+[ext_resource type="Texture2D" uid="uid://fekbabh30vw1" path="res://comic/25.png" id="3_5d8r2"]
+[ext_resource type="Texture2D" uid="uid://3quuiv415m1k" path="res://comic/26.png" id="4_wd1y3"]
+[ext_resource type="Texture2D" uid="uid://bx5avmy1cj607" path="res://comic/27.png" id="5_knt0p"]
+[ext_resource type="Texture2D" uid="uid://du83r4y8xdwse" path="res://comic/28.png" id="6_e78d0"]
+[ext_resource type="Texture2D" uid="uid://rb7yyvi8jrpc" path="res://comic/29.png" id="7_betvy"]
+[ext_resource type="Texture2D" uid="uid://dlrb4135v5hob" path="res://comic/30.png" id="8_lnn6t"]
+[ext_resource type="Texture2D" uid="uid://bfx0e4wpnrs8b" path="res://comic/31.png" id="9_qi18k"]
+[ext_resource type="Texture2D" uid="uid://dn01ytxp1pou5" path="res://comic/32.png" id="10_lgunq"]
+[ext_resource type="Texture2D" uid="uid://lc6hbed1x2i0" path="res://comic/33.png" id="11_yr18n"]
+[ext_resource type="Texture2D" uid="uid://boy680vg7itlr" path="res://comic/34.png" id="12_yj87e"]
+[ext_resource type="Texture2D" uid="uid://e1vh1gju35v4" path="res://comic/35.png" id="13_4ic7l"]
+
+[node name="OutroCutscene" type="Control" unique_id=276695933]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_f5jnq")
+comic_panels = Array[Texture2D]([ExtResource("2_6xgc4"), ExtResource("3_5d8r2"), ExtResource("4_wd1y3"), ExtResource("5_knt0p"), ExtResource("6_e78d0"), ExtResource("7_betvy"), ExtResource("8_lnn6t"), ExtResource("9_qi18k"), ExtResource("10_lgunq"), ExtResource("11_yr18n"), ExtResource("12_yj87e"), ExtResource("13_4ic7l")])
+
+[node name="ComicDisplay" type="TextureRect" parent="." unique_id=6560614]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+expand_mode = 1
+stretch_mode = 5
