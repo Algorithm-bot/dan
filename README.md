@@ -2,7 +2,7 @@
 
 > A 30-minute 2D platformer built in Godot Engine. A journey of love, divine power, and overcoming demons—both in the game and in the code.
 
-![Game Screenshot Placeholder](path/to/your/screenshot.png) *(Pro-tip: Replace this link with a screenshot or GIF of your gameplay!)*
+![Game Screenshot Placeholder](https://github.com/Algorithm-bot/dan/blob/main/misc/CaveWoman.png) *(Pro-tip: Replace this link with a screenshot or GIF of your gameplay!)*
 
 ## 🎮 The Story
 Follow the journey of a caveman living peacefully with his wife until a mysterious Golden Apple accidentally falls from Heaven. Unaware of its true power, he gives the apple to his wife to eat. The apple merges with her soul, granting her the divine ability to create life from imagination.
