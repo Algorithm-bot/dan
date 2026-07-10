@@ -2,11 +2,13 @@
 
 > A 30-minute 2D platformer built in Godot Engine. A journey of love, divine power, and overcoming demons—both in the game and in the code.
 
-https://github.com/Algorithm-bot/dan/blob/main/scrrenshots/1.png
-https://github.com/Algorithm-bot/dan/blob/main/scrrenshots/2.png
-https://github.com/Algorithm-bot/dan/blob/main/scrrenshots/3.png
-https://github.com/Algorithm-bot/dan/blob/main/scrrenshots/4.png
-https://github.com/Algorithm-bot/dan/blob/main/scrrenshots/5.png
+<p align="center">
+  <img src="https://github.com/Algorithm-bot/dan/blob/main/scrrenshots/1.png?raw=true" width="45%" />
+  <img src="https://github.com/Algorithm-bot/dan/blob/main/scrrenshots/2.png?raw=true" width="45%" />
+  <img src="https://github.com/Algorithm-bot/dan/blob/main/scrrenshots/3.png?raw=true" width="45%" />
+  <img src="https://github.com/Algorithm-bot/dan/blob/main/scrrenshots/4.png?raw=true" width="45%" />
+  <img src="https://github.com/Algorithm-bot/dan/blob/main/scrrenshots/5.png?raw=true" width="80%" />
+</p>
 
 
 ## 🎮 The Story
